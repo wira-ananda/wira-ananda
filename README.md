@@ -1,4 +1,6 @@
-### Hi there 👋
+###  Hi There! I'm Wira Ananda 👋
+### I'm a Frontend Developer and UI Designer
+
 
 <!--
 **wira-ananda/wira-ananda** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
