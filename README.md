@@ -1,6 +1,8 @@
 ###  Hi There! I'm Wira Ananda 👋
 ### I'm a Frontend Developer and UI Designer
 
+<p>Just non playable character that have unique vision and a lot of creative stuff. I love to designing something and implementing it with a developing code.</p>
+
 
 <!--
 **wira-ananda/wira-ananda** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
