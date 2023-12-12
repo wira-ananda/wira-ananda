@@ -13,9 +13,9 @@ You can call me Wiraa, I am a college student who wanted to become a Frontend De
 [<img align="left" alt="TS" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" style="padding-right:10px;" />][webdev]
 [<img align="left" alt="REACT JS" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" style="padding-right:0px;" />][webdev]
 [<img align="left" alt="TAILWIND CSS" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" style="padding-right:10px;" />][webdev]
-[<img align="left" alt="SASS" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" style="padding-right:10px;" />][webdev]
-[<img align="left" alt="VITE JS" width="30px" src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Vitejs-logo.svg" style="padding-right:10px;" />][webdev]
 [<img align="left" alt="NEXT JS" width="30px" src="https://seeklogo.com/images/N/next-js-icon-logo-EE302D5DBD-seeklogo.com.png" style="padding-right:10px;" />][webdev]
+[<img align="left" alt="VITE JS" width="30px" src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Vitejs-logo.svg" style="padding-right:10px;" />][webdev]
+[<img align="left" alt="SASS" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" style="padding-right:10px;" />][webdev]
 
 <br />
 <br />
