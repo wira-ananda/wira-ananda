@@ -15,7 +15,7 @@ You can call me Wiraa, I am a college student who wanted to become a Frontend De
 [<img align="left" alt="TAILWIND CSS" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" style="padding-right:10px;" />][webdev]
 [<img align="left" alt="SASS" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" style="padding-right:10px;" />][webdev]
 [<img align="left" alt="VITE JS" width="30px" src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Vitejs-logo.svg" style="padding-right:10px;" />][webdev]
-[<img align="left" alt="NEXT JS" width="50px" src="https://branditechture.agency/brand-logos/wp-content/uploads/wpdm-cache/Next.js-900x0.png" style="padding-right:10px;" />][webdev]
+[<img align="left" alt="NEXT JS" width="30px" src="https://res.cloudinary.com/practicaldev/image/fetch/s--hwe1Y7Zt--/c_limit,f_auto,fl_progressive,q_80,w_375/https://dev-to-uploads.s3.amazonaws.com/uploads/badge/badge_image/89/next-js-2.png" style="padding-right:10px;" />][webdev]
 
 <br />
 <br />
