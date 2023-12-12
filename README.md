@@ -23,17 +23,20 @@ You can call me Wiraa, I am a college student who wanted to become a Frontend De
 ---
 ### Connect with me:
 
-[![website](./img/wa-dark.svg)](https://wa.me/62895632449666#gh-light-mode-only)
-[![website](./img/wa-light.svg)](https://wa.me/62895632449666#gh-dark-mode-only)
+[![website](./img/wa-light.svg)](https://wa.me/62895632449666#gh-light-mode-only)
+[![website](./img/wa-dark.svg)](https://wa.me/62895632449666#gh-dark-mode-only)
 &nbsp;&nbsp;
-[![website](./img/email-dark.svg)](mailto:ur.wiraananda@gmail.com?subject=Hai👋#gh-light-mode-only)
-[![website](./img/email-light.svg)](mailto:ur.wiraananda@gmail.com?subject=Hai👋#gh-dark-mode-only)
+[![website](./img/email-light.svg)](mailto:ur.wiraananda@gmail.com?subject=Hai👋#gh-light-mode-only)
+[![website](./img/email-dark.svg)](mailto:ur.wiraananda@gmail.com?subject=Hai👋#gh-dark-mode-only)
 &nbsp;&nbsp;
 [![website](./img/linkedin-light.svg)](https://www.linkedin.com/in/wira-ananda#gh-light-mode-only)
 [![website](./img/linkedin-dark.svg)](https://www.linkedin.com/in/wira-ananda#gh-dark-mode-only)
 &nbsp;&nbsp;
 [![website](./img/instagram-light.svg)](https://instagram.com/wiraa_and#gh-light-mode-only)
 [![website](./img/instagram-dark.svg)](https://instagram.com/wiraa_and#gh-dark-mode-only)
+&nbsp;&nbsp;
+[![website](./img/spotify-light.svg)](https://open.spotify.com/playlist/4J4KrkM449lN0q3vBWnQew#gh-light-mode-only)
+[![website](./img/spotify-dark.svg)](https://open.spotify.com/playlist/4J4KrkM449lN0q3vBWnQew#gh-dark-mode-only)
 
 
 
