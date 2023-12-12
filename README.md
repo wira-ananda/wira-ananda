@@ -1,4 +1,4 @@
-## Hi there, I'm [Wiraa](https://wiraananda.netlify.app/) 👋 [![website](./img/wiraa-light.svg)](https://wiraananda.netlify.app/#gh-light-mode-only) [![website](./img/wiraa-dark.svg)](https://wiraananda.netlify.app/#gh-dark-mode-only) 
+## Hi there, I'm [Wiraa](https://wiraananda.netlify.app/) 👋
 ### I'm a Frontend Developer and UI Designer
 
 You can call me Wiraa, I am a college student who wanted to become a Frontend Developer and UI Designer, with unique vision on the creative field and have a lot of creative stuff. I love designing something and implementing it with a developing code.
@@ -38,6 +38,8 @@ You can call me Wiraa, I am a college student who wanted to become a Frontend De
 [![website](./img/spotify-light.svg)](https://open.spotify.com/playlist/4J4KrkM449lN0q3vBWnQew#gh-light-mode-only)
 [![website](./img/spotify-dark.svg)](https://open.spotify.com/playlist/4J4KrkM449lN0q3vBWnQew#gh-dark-mode-only)
 
-
+---
+[![website](./img/wiraa-light.svg)](https://wiraananda.netlify.app/#gh-light-mode-only)
+[![website](./img/wiraa-dark.svg)](https://wiraananda.netlify.app/#gh-dark-mode-only) 
 
 [webdev]: https://wiraananda.netlify.app/
