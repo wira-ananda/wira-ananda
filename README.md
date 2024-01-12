@@ -16,7 +16,7 @@ You can call me Wiraa, I am a college student who wanted to become a Frontend De
 [<img align="left" alt="NEXT JS" width="30px" src="https://seeklogo.com/images/N/next-js-icon-logo-EE302D5DBD-seeklogo.com.png" style="padding-right:10px;" />][webdev]
 [<img align="left" alt="VITE JS" width="30px" src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Vitejs-logo.svg" style="padding-right:10px;" />][webdev]
 [<img align="left" alt="SASS" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" style="padding-right:10px;" />][webdev]
-[<img align="left" alt="CHAKRA UI" width="30px" src="https://image.pngaaa.com/704/7959704-middle.png" style="padding-right:10px;" />][webdev]
+[<img align="left" alt="CHAKRA UI" width="30px" src="https://img.stackshare.io/service/12421/rzylUjaf_400x400.jpg" style="padding-right:10px;" />][webdev]
 [<img align="left" alt="EXPRESS JS" width="30px" src="https://vectorified.com/images/express-js-icon-18.png" style="padding-right:10px;" />][webdev]
 [<img align="left" alt="POSTGRESQL" width="30px" src="https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg" style="padding-right:10px;" />][webdev]
 [<img align="left" alt="PRISMA" width="30px" src="https://bestofjs.org/logos/prisma.dark.svg" style="padding-right:10px;" />][webdev]
