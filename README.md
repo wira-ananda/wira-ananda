@@ -19,7 +19,7 @@ You can call me Wiraa, I am a college student who wanted to become a Frontend De
 [<img align="left" alt="CHAKRA UI" width="30px" src="https://img.stackshare.io/service/12421/rzylUjaf_400x400.jpg" style="padding-right:10px;" />][webdev]
 [<img align="left" alt="EXPRESS JS" width="30px" src="https://vectorified.com/images/express-js-icon-18.png" style="padding-right:10px;" />][webdev]
 [<img align="left" alt="POSTGRESQL" width="30px" src="https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg" style="padding-right:10px;" />][webdev]
-[<img align="left" alt="PRISMA" width="30px" src="https://bestofjs.org/logos/prisma.dark.svg" style="padding-right:10px;" />][webdev]
+[<img align="left" alt="PRISMA" width="24px" src="https://bestofjs.org/logos/prisma.dark.svg" style="padding-right:10px;" />][webdev]
 
 <br />
 <br />
