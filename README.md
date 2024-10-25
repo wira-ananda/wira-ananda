@@ -2,7 +2,7 @@
 
 ### I'm a Full Stack Web Developer
 
-You can call me Wiraa, I am a college student who interested with a Frontend Developer, Back end Developer and UI Designer, with unique vision on the creative field and have a lot of creative stuff. I love designing something and implementing it with a developing code.
+You can call me Wiraa, I am a college student who interested with a Frontend Developer, Backend Developer and UI Designer, with unique vision on the creative field and have a lot of creative stuff. I love designing something and implementing it with a developing code.
 
 ---
 
