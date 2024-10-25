@@ -1,8 +1,8 @@
 ## Hi there, I'm [Wiraa](https://wiraananda.netlify.app/) 👋
 
-### I'm a Frontend Developer and UI Designer
+### I'm a Full Stack Web Developer
 
-You can call me Wiraa, I am a college student who wanted to become a Frontend Developer and UI Designer, with unique vision on the creative field and have a lot of creative stuff. I love designing something and implementing it with a developing code.
+You can call me Wiraa, I am a college student who interested with a Frontend Developer, Back end Developer and UI Designer, with unique vision on the creative field and have a lot of creative stuff. I love designing something and implementing it with a developing code.
 
 ---
 
