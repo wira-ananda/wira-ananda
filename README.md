@@ -10,7 +10,7 @@ You can call me Wiraa, I am a college student who interested with a Frontend Dev
 
 [<img align="left" alt="JS" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" style="padding-right:10px;" />][webdev]
 [<img align="left" alt="TYPESCRIPT" width="30px" src="https://www.svgrepo.com/show/303600/typescript-logo.svg" style="padding-right:10px;" />][webdev]
-[<img align="left" alt="PHP" width="30px" src="https://www.svgrepo.com/show/508931/php01.svg" style="padding-right:10px;" />][webdev]
+[<img align="left" alt="PHP" width="30px" src="https://cdn.freebiesupply.com/logos/large/2x/php-1-logo-png-transparent.png " style="padding-right:10px;" />][webdev]
 [<img align="left" alt="REACT JS" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" style="padding-right:0px;" />][webdev]
 [<img align="left" alt="NEXT JS" width="30px" src="https://seeklogo.com/images/N/next-js-icon-logo-EE302D5DBD-seeklogo.com.png" style="padding-right:10px;" />][webdev]
 [<img align="left" alt="ASTRO JS" width="30px" src="https://astro.build/assets/press/astro-icon-light-gradient.png" style="padding-right:10px, top:5px" />][webdev]
