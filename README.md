@@ -13,7 +13,7 @@ You can call me Wiraa, I am a college student who interested with a Frontend Dev
 [<img align="left" alt="PHP" width="30px" src="https://www.svgrepo.com/show/508931/php01.svg" style="padding-right:10px;" />][webdev]
 [<img align="left" alt="REACT JS" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" style="padding-right:0px;" />][webdev]
 [<img align="left" alt="NEXT JS" width="30px" src="https://seeklogo.com/images/N/next-js-icon-logo-EE302D5DBD-seeklogo.com.png" style="padding-right:10px;" />][webdev]
-[<img align="left" alt="ASTRO JS" width="30px" src="https://astro.build/assets/press/astro-logo-dark.svg" style="padding-right:10px, top:5px" />][webdev]
+[<img align="left" alt="ASTRO JS" width="30px" src="https://astro.build/assets/press/astro-icon-light-gradient.png" style="padding-right:10px, top:5px" />][webdev]
 [<img align="left" alt="LARAVEL" width="30px" src="https://www.svgrepo.com/show/376332/laravel.svg" style="padding-right:0px;" />][webdev]
 [<img align="left" alt="VITE JS" width="30px" src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Vitejs-logo.svg" style="padding-right:10px;" />][webdev]
 [<img align="left" alt="EXPRESS JS" width="40px" src="https://vectorified.com/images/express-js-icon-18.png" style="padding-right:10px;" />][webdev]
