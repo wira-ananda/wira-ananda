@@ -20,7 +20,7 @@ You can call me Wiraa, I am a college student who interested with a Frontend Dev
 [<img align="left" alt="Express JS" width="30px" src="https://vectorified.com/images/express-js-icon-18.png" style="padding:5px 5px;" />](https://expressjs.com/)
 [<img align="left" alt="Prisma" width="30px" src="https://bestofjs.org/logos/prisma.dark.svg" style="padding:5px 5px;" />](https://www.prisma.io/docs/)
 [<img align="left" alt="PHP" width="30px" src="https://cdn.freebiesupply.com/logos/large/2x/php-1-logo-png-transparent.png" style="padding:5px 5px;" />](https://www.php.net/docs.php)
-[<img align="left" alt="Laravel" width="50px" src="https://github.com/laravel/art/blob/master/laravel-logo.png" style="padding:5px 5px;" />](https://laravel.com/docs)
+[<img align="left" alt="Laravel" width="30px" src="https://github.com/laravel/art/blob/master/laravel-logo.png" style="padding:5px 5px;" />](https://laravel.com/docs)
 [<img align="left" alt="Vite JS" width="30px" src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Vitejs-logo.svg" style="padding:5px 5px, bottom: 5px;" />](https://vitejs.dev/)
 [<img align="left" alt="Tailwind CSS" width="30px" src="https://www.svgrepo.com/show/374118/tailwind.svg" style="padding:5px 5px;" />](https://tailwindcss.com/)
 
