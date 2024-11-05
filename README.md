@@ -5,7 +5,7 @@
 You can call me Wiraa, I am a college student who interested with a Frontend Developer, Backend Developer and UI Designer, with unique vision on the creative field and have a lot of creative stuff. I love designing something and implementing it with a developing code.
 
 - 🌱 I'm currently learning **Frontend Web & Mobile Developing, Backend Developing, & UI Designing**
-- 👨‍💻 My portfolio available [here(https://wiraananda.netlify.app/)]
+- 👨‍💻 My portfolio available [here](https://wiraananda.netlify.app/)
 - 📫 How to reach me **ur.wiraananda@gmail.com**
 
 ---
