@@ -31,8 +31,6 @@ You can call me Wiraa, I am a college student who interested with a Frontend Dev
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=wira-ananda&show_icons=true&locale=en&theme=default" alt="wira-ananda's GitHub stats" />
   <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=wira-ananda&theme=default" alt="wira-ananda's streak stats" />
 </div>
-
-<br />
 <br />
 
 
