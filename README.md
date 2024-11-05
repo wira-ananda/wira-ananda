@@ -12,17 +12,17 @@ You can call me Wiraa, I am a college student who interested with a Frontend Dev
 
 ### Languages and Tools:
 
-[<img align="left" alt="JavaScript" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" style="padding-right:10px;" />](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[<img align="left" alt="TypeScript" width="30px" src="https://www.svgrepo.com/show/303600/typescript-logo.svg" style="padding-right:10px;" />](https://www.typescriptlang.org/)
-[<img align="left" alt="React JS" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" style="padding-right:10px;" />](https://reactjs.org/)
-[<img align="left" alt="Next JS" width="30px" src="https://seeklogo.com/images/N/next-js-icon-logo-EE302D5DBD-seeklogo.com.png" style="padding-right:10px;" />](https://nextjs.org/)
-[<img align="left" alt="Astro" width="30px" src="https://astro.build/assets/press/astro-icon-light-gradient.png" style="padding-right:10px;" />](https://astro.build/)
-[<img align="left" alt="Express JS" width="30px" src="https://vectorified.com/images/express-js-icon-18.png" style="padding-right:10px;" />](https://expressjs.com/)
-[<img align="left" alt="Prisma" width="30px" src="https://bestofjs.org/logos/prisma.dark.svg" style="padding-right:10px;" />](https://www.prisma.io/docs/)
-[<img align="left" alt="PHP" width="30px" src="https://cdn.freebiesupply.com/logos/large/2x/php-1-logo-png-transparent.png" style="padding-right:10px;" />](https://www.php.net/docs.php)
-[<img align="left" alt="Laravel" width="50px" src="https://www.svgrepo.com/show/376332/laravel.svg" style="padding-right:10px;" />](https://laravel.com/docs)
-[<img align="left" alt="Vite JS" width="30px" src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Vitejs-logo.svg" style="padding-right:10px;" />](https://vitejs.dev/)
-[<img align="left" alt="Tailwind CSS" width="30px" src="https://www.svgrepo.com/show/374118/tailwind.svg" style="padding-right:10px;" />](https://tailwindcss.com/)
+[<img align="left" alt="JavaScript" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" style="padding:5px 5px;" />](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[<img align="left" alt="TypeScript" width="30px" src="https://www.svgrepo.com/show/303600/typescript-logo.svg" style="padding:5px 5px;" />](https://www.typescriptlang.org/)
+[<img align="left" alt="React JS" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" style="padding:5px 5px;" />](https://reactjs.org/)
+[<img align="left" alt="Next JS" width="30px" src="https://seeklogo.com/images/N/next-js-icon-logo-EE302D5DBD-seeklogo.com.png" style="padding:5px 5px;" />](https://nextjs.org/)
+[<img align="left" alt="Astro" width="30px" src="https://astro.build/assets/press/astro-icon-light-gradient.png" style="padding:5px 5px;" />](https://astro.build/)
+[<img align="left" alt="Express JS" width="30px" src="https://vectorified.com/images/express-js-icon-18.png" style="padding:5px 5px;" />](https://expressjs.com/)
+[<img align="left" alt="Prisma" width="30px" src="https://bestofjs.org/logos/prisma.dark.svg" style="padding:5px 5px;" />](https://www.prisma.io/docs/)
+[<img align="left" alt="PHP" width="30px" src="https://cdn.freebiesupply.com/logos/large/2x/php-1-logo-png-transparent.png" style="padding:5px 5px;" />](https://www.php.net/docs.php)
+[<img align="left" alt="Laravel" width="50px" src="https://www.svgrepo.com/show/376332/laravel.svg" style="padding:5px 5px;" />](https://laravel.com/docs)
+[<img align="left" alt="Vite JS" width="30px" src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Vitejs-logo.svg" style="padding:5px 5px;" />](https://vitejs.dev/)
+[<img align="left" alt="Tailwind CSS" width="30px" src="https://www.svgrepo.com/show/374118/tailwind.svg" style="padding:5px 5px;" />](https://tailwindcss.com/)
 
 <br clear="left"/>
 <br />
