@@ -25,11 +25,17 @@ You can call me Wiraa, I am a college student who interested with a Frontend Dev
 [<img align="left" alt="Vite JS" height="30px" src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Vitejs-logo.svg" style="padding:5px 5px, bottom: 5px;" />](https://vitejs.dev/)
 
 
+---
 <br clear="left"/>
 <br />
-<br />
-<br />
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs?username=wira-ananda&show_icons=true&locale=en&layout=compact&theme=default" alt="wira-ananda's most used languages" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=wira-ananda&show_icons=true&locale=en&theme=default" alt="wira-ananda's GitHub stats" />
+  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=wira-ananda&theme=default" alt="wira-ananda's streak stats" />
+</div>
 
+<br />
+<br />
 ---
 
 ### Connect with me:
