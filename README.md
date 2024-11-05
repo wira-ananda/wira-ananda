@@ -17,7 +17,7 @@ You can call me Wiraa, I am a college student who interested with a Frontend Dev
 [<img align="left" alt="React JS" height="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" style="padding:5px 5px;" />](https://reactjs.org/)
 [<img align="left" alt="Next JS" height="30px" src="https://seeklogo.com/images/N/next-js-icon-logo-EE302D5DBD-seeklogo.com.png" style="padding:5px 5px;" />](https://nextjs.org/)
 [<img align="left" alt="Astro" height="30px" src="https://astro.build/assets/press/astro-icon-light-gradient.png" style="padding:5px 5px;" />](https://astro.build/)
-[<img align="left" alt="Express JS" height="30px" src="https://vectorified.com/images/express-js-icon-18.png" style="padding:5px 5px;" />](https://expressjs.com/)
+[<img align="left" alt="Express JS" height="30px" src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png" style="padding:5px 5px;" />](https://expressjs.com/)
 [<img align="left" alt="Prisma" height="30px" src="https://bestofjs.org/logos/prisma.dark.svg" style="padding:5px 5px;" />](https://www.prisma.io/docs/)
 [<img align="left" alt="PHP" height="30px" src="https://github.com/php/web-php/blob/master/images/logos/new-php-logo.png" style="padding:5px 5px;" />](https://www.php.net/docs.php)
 [<img align="left" alt="Laravel" height="30px" src="https://github.com/laravel/art/blob/master/laravel-logo.png" style="padding:5px 5px;" />](https://laravel.com/docs)
