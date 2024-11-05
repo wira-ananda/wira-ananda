@@ -12,17 +12,44 @@ You can call me Wiraa, I am a college student who interested with a Frontend Dev
 
 ### Languages and Tools:
 
-[<img align="left" alt="JavaScript" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" style="padding-right:10px;" />](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[<img align="left" alt="TypeScript" width="30px" src="https://www.svgrepo.com/show/303600/typescript-logo.svg" style="padding-right:10px;" />](https://www.typescriptlang.org/)
-[<img align="left" alt="React JS" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" style="padding-right:10px;" />](https://reactjs.org/)
-[<img align="left" alt="Next JS" width="30px" src="https://seeklogo.com/images/N/next-js-icon-logo-EE302D5DBD-seeklogo.com.png" style="padding-right:10px;" />](https://nextjs.org/)
-[<img align="left" alt="Astro" width="30px" src="https://astro.build/assets/press/astro-icon-light-gradient.png" style="padding-right:10px;" />](https://astro.build/)
-[<img align="left" alt="Express JS" width="30px" src="https://vectorified.com/images/express-js-icon-18.png" style="padding-right:10px;" />](https://expressjs.com/)
-[<img align="left" alt="Prisma" width="30px" src="https://bestofjs.org/logos/prisma.dark.svg" style="padding-right:10px;" />](https://www.prisma.io/docs/)
-[<img align="left" alt="PHP" width="30px" src="https://cdn.freebiesupply.com/logos/large/2x/php-1-logo-png-transparent.png" style="padding-right:10px;" />](https://www.php.net/docs.php)
-[<img align="left" alt="Laravel" width="30px" src="https://www.svgrepo.com/show/376332/laravel.svg" style="padding-right:10px;" />](https://laravel.com/docs)
-[<img align="left" alt="Vite JS" width="30px" src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Vitejs-logo.svg" style="padding-right:10px;" />](https://vitejs.dev/)
-[<img align="left" alt="Tailwind CSS" width="30px" src="https://www.svgrepo.com/show/374118/tailwind.svg" style="padding-right:10px;" />](https://tailwindcss.com/)
+## Tools & Technologies
+
+<p align="left"> 
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> 
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40"/> 
+  </a> 
+  <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> 
+    <img src="https://www.svgrepo.com/show/303600/typescript-logo.svg" alt="TypeScript" width="40" height="40"/> 
+  </a> 
+  <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> 
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" width="40" height="40"/> 
+  </a> 
+  <a href="https://nextjs.org/" target="_blank" rel="noreferrer"> 
+    <img src="https://seeklogo.com/images/N/next-js-icon-logo-EE302D5DBD-seeklogo.com.png" alt="Next.js" width="40" height="40"/> 
+  </a> 
+  <a href="https://astro.build/" target="_blank" rel="noreferrer"> 
+    <img src="https://astro.build/assets/press/astro-icon-light-gradient.png" alt="Astro" width="40" height="40"/> 
+  </a> 
+  <a href="https://expressjs.com/" target="_blank" rel="noreferrer"> 
+    <img src="https://vectorified.com/images/express-js-icon-18.png" alt="Express" width="40" height="40"/> 
+  </a> 
+  <a href="https://www.prisma.io/docs/" target="_blank" rel="noreferrer"> 
+    <img src="https://bestofjs.org/logos/prisma.dark.svg" alt="Prisma" width="40" height="40"/> 
+  </a> 
+  <a href="https://www.php.net/docs.php" target="_blank" rel="noreferrer"> 
+    <img src="https://cdn.freebiesupply.com/logos/large/2x/php-1-logo-png-transparent.png" alt="PHP" width="40" height="40"/> 
+  </a> 
+  <a href="https://laravel.com/docs" target="_blank" rel="noreferrer"> 
+    <img src="https://www.svgrepo.com/show/376332/laravel.svg" alt="Laravel" width="40" height="40"/> 
+  </a> 
+  <a href="https://vitejs.dev/" target="_blank" rel="noreferrer"> 
+    <img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Vitejs-logo.svg" alt="Vite" width="40" height="40"/> 
+  </a> 
+  <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> 
+    <img src="https://www.svgrepo.com/show/374118/tailwind.svg" alt="Tailwind CSS" width="40" height="40"/> 
+  </a> 
+</p>
+
 
 <br clear="left"/>
 <br />
