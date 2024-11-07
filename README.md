@@ -4,30 +4,38 @@
 
 You can call me Wiraa, I am a college student who interested with a Frontend Developer, Backend Developer and UI Designer, with unique vision on the creative field and have a lot of creative stuff. I love designing something and implementing it with a developing code.
 
+- 🌱 I'm currently learning **Frontend Web & Mobile Developing, Backend Developing, & UI Designing**
+- 👨‍💻 My portfolio available [here](https://wiraananda.netlify.app/)
+- 📫 How to reach me **ur.wiraananda@gmail.com**
+
 ---
 
 ### Languages and Tools:
 
-[<img align="left" alt="JS" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" style="padding-right:10px;" />][webdev]
-[<img align="left" alt="TYPESCRIPT" width="30px" src="https://www.svgrepo.com/show/303600/typescript-logo.svg" style="padding-right:10px;" />][webdev]
-[<img align="left" alt="REACT JS" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" style="padding-right:0px;" />][webdev]
-[<img align="left" alt="NEXT JS" width="30px" src="https://seeklogo.com/images/N/next-js-icon-logo-EE302D5DBD-seeklogo.com.png" style="padding-right:10px;" />][webdev]
-[<img align="left" alt="ASTRO JS" width="30px" src="https://astro.build/assets/press/astro-icon-light-gradient.png" style="padding-right:10px, top:5px" />][webdev]
-[<img align="left" alt="EXPRESS JS" width="40px" src="https://vectorified.com/images/express-js-icon-18.png" style="padding-right:10px;" />][webdev]
-[<img align="left" alt="PRISMA" width="24px" src="https://bestofjs.org/logos/prisma.dark.svg" style="padding-right:10px;" />][webdev]
-[<img align="left" alt="PHP" width="30px" src="https://cdn.freebiesupply.com/logos/large/2x/php-1-logo-png-transparent.png" style="padding-right:10px;" />][webdev]
-[<img align="left" alt="LARAVEL" width="30px" src="https://www.svgrepo.com/show/376332/laravel.svg" style="padding-right:0px;" />][webdev]
-[<img align="left" alt="VITE JS" width="30px" src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Vitejs-logo.svg" style="padding-right:10px;" />][webdev]
-[<img align="left" alt="TAILWIND CSS" width="30px" src="https://www.svgrepo.com/show/374118/tailwind.svg" style="padding-right:10px, top:5px" />][webdev]
+[<img align="left" alt="JavaScript" height="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" style="padding:5px 5px;" />](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[<img align="left" alt="TypeScript" height="30px" src="https://www.svgrepo.com/show/303600/typescript-logo.svg" style="padding:5px 5px;" />](https://www.typescriptlang.org/)
+[<img align="left" alt="React JS" height="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" style="padding:5px 5px;" />](https://reactjs.org/)
+[<img align="left" alt="Next JS" height="30px" src="https://seeklogo.com/images/N/next-js-icon-logo-EE302D5DBD-seeklogo.com.png" style="padding:5px 5px;" />](https://nextjs.org/)
+[<img align="left" alt="Tailwind CSS" height="30px" src="https://www.svgrepo.com/show/374118/tailwind.svg" style="padding:5px 5px;" />](https://tailwindcss.com/)
+[<img align="left" alt="Astro" height="30px" src="https://astro.build/assets/press/astro-icon-light-gradient.png" style="padding:5px 5px;" />](https://astro.build/)
+[<img align="left" alt="Express JS" height="30px" src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png" style="padding:5px 5px;" />](https://expressjs.com/)
+[<img align="left" alt="Prisma" height="30px" src="https://bestofjs.org/logos/prisma.dark.svg" style="padding:5px 5px;" />](https://www.prisma.io/docs/)
+[<img align="left" alt="PHP" height="30px" src="https://github.com/php/web-php/blob/master/images/logos/new-php-logo.png" style="padding:5px 5px;" />](https://www.php.net/docs.php)
+[<img align="left" alt="Laravel" height="30px" src="https://github.com/laravel/art/blob/master/laravel-logo.png" style="padding:5px 5px;" />](https://laravel.com/docs)
+[<img align="left" alt="Vite JS" height="30px" src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Vitejs-logo.svg" style="padding:5px 5px, bottom: 5px;" />](https://vitejs.dev/)
+
+<br clear="left"/>
+<br />
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=wira-ananda&show_icons=true&locale=en&theme=default" alt="wira-ananda's GitHub stats" />
+  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=wira-ananda&theme=default" alt="wira-ananda's streak stats" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs?username=wira-ananda&show_icons=true&locale=en&layout=compact&theme=default" alt="wira-ananda's most used languages" />
+</div>
+<br />
 
 
-<br />
-<br />
-<br />
-<br />
 
 ---
-
 ### Connect with me:
 
 [![website](./img/email-light.svg)](mailto:ur.wiraananda@gmail.com?subject=Hai👋#gh-light-mode-only)
