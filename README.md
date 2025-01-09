@@ -2,11 +2,12 @@
 
 ### I'm a Full Stack Developer
 
-You can call me Wiraa, I am a college student who interested with a Frontend Developer, Backend Developer and Designer, with unique vision on the creative field and have a lot of creative stuff. I love designing something and implementing it with a developing code.
+You can call me Wiraa, I am a college student who interested with a Web Developer and Designer, with unique vision on the creative field and have a lot of creative stuff. I love designing something and implementing it with a developing code.
 
-- 🌱 I'm currently learning **Frontend Web & Mobile Developing, Backend Developing, & UI Designing**
-- 👨‍💻 My portfolio available [here](https://wiraananda.netlify.app/)
+- 🌱 I'm currently learning **Web Developing, Designing**
+- 👨‍💻 My portfolio available here, [Web Dev](https://wiraananda.netlify.app/) & [Design](https://drive.google.com/file/d/1jU_29mOHFwGk9qQVVjRSWUxkOzrlv3LK/view?usp=drive_link)
 - 📫 How to reach me **ur.wiraananda@gmail.com**
+- 📄 Access my Curriculum Vitae [here](https://drive.google.com/file/d/1blDg_vTr_qnDCWE7K-GxstADZiAHXf2d/view?usp=drive_link)
 
 ---
 
