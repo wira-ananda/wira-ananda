@@ -15,7 +15,7 @@ You can call me Wiraa, I am a college student who interested with a Web Develope
 
 [<img align="left" alt="JavaScript" height="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" style="padding:5px 5px;" />](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [<img align="left" alt="TypeScript" height="30px" src="https://www.svgrepo.com/show/303600/typescript-logo.svg" style="padding:5px 5px;" />](https://www.typescriptlang.org/)
-[<img align="left" alt="React JS" height="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" style="padding:5px 5px;" />](https://reactjs.org/)
+[<img align="left" alt="React JS" height="30px" src="[https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg](https://logowik.com/content/uploads/images/nextjs7685.logowik.com.webp)" style="padding:5px 5px;" />](https://reactjs.org/)
 [<img align="left" alt="Next JS" height="30px" src="https://seeklogo.com/images/N/next-js-icon-logo-EE302D5DBD-seeklogo.com.png" style="padding:5px 5px;" />](https://nextjs.org/)
 [<img align="left" alt="Tailwind CSS" height="30px" src="https://www.svgrepo.com/show/374118/tailwind.svg" style="padding:5px 5px;" />](https://tailwindcss.com/)
 [<img align="left" alt="Astro" height="30px" src="https://astro.build/assets/press/astro-icon-light-gradient.png" style="padding:5px 5px;" />](https://astro.build/)
