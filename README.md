@@ -15,16 +15,15 @@ You can call me Wiraa, I am a college student who interested with a Web Develope
 
 [<img align="left" alt="JavaScript" height="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" style="padding:5px 5px;" />](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [<img align="left" alt="TypeScript" height="30px" src="https://www.svgrepo.com/show/303600/typescript-logo.svg" style="padding:5px 5px;" />](https://www.typescriptlang.org/)
-[<img align="left" alt="React JS" height="30px" src="[https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg](https://logowik.com/content/uploads/images/nextjs7685.logowik.com.webp)" style="padding:5px 5px;" />](https://reactjs.org/)
-[<img align="left" alt="Next JS" height="30px" src="https://seeklogo.com/images/N/next-js-icon-logo-EE302D5DBD-seeklogo.com.png" style="padding:5px 5px;" />](https://nextjs.org/)
+[<img align="left" alt="React JS" height="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" style="padding:5px 5px;" />](https://reactjs.org/)
+[<img align="left" alt="Next JS" height="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" style="padding:5px 5px;" />](https://nextjs.org/)
 [<img align="left" alt="Tailwind CSS" height="30px" src="https://www.svgrepo.com/show/374118/tailwind.svg" style="padding:5px 5px;" />](https://tailwindcss.com/)
 [<img align="left" alt="Astro" height="30px" src="https://astro.build/assets/press/astro-icon-light-gradient.png" style="padding:5px 5px;" />](https://astro.build/)
 [<img align="left" alt="Express JS" height="30px" src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png" style="padding:5px 5px;" />](https://expressjs.com/)
 [<img align="left" alt="Prisma" height="30px" src="https://bestofjs.org/logos/prisma.dark.svg" style="padding:5px 5px;" />](https://www.prisma.io/docs/)
 [<img align="left" alt="PHP" height="30px" src="https://github.com/php/web-php/blob/master/images/logos/new-php-logo.png" style="padding:5px 5px;" />](https://www.php.net/docs.php)
 [<img align="left" alt="Laravel" height="30px" src="https://github.com/laravel/art/blob/master/laravel-logo.png" style="padding:5px 5px;" />](https://laravel.com/docs)
-[<img align="left" alt="Vite JS" height="30px" src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Vitejs-logo.svg" style="padding:5px 5px, bottom: 5px;" />](https://vitejs.dev/)
-
+[<img align="left" alt="Vite JS" height="30px" src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Vitejs-logo.svg" style="padding:5px 5px;" />](https://vitejs.dev/)
 <br clear="left"/>
 <br />
 <div align="center">
