@@ -43,6 +43,34 @@ You can call me Wiraa, I am a college student who interested with a Web Develope
 
 ---
 
+<h1 align="center">
+  <table>
+    <tr>
+      <td>
+        <img src="https://i.pinimg.com/originals/f9/57/6f/f9576fca9fc8ef79976a1d6327bbe9ae.gif" alt="Animated GIF" width="250px">
+      </td>
+      <td>
+        <a href="https://github.com/wira-ananda">
+          <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=wira-ananda&theme=tokyonight" alt="Profile Summary Card" />
+        </a>
+      </td>
+    </tr>
+  </table>
+</h1>
+
+<div align="center">
+  <picture>
+    <source srcset="https://github-readme-stats.vercel.app/api?username=wira-ananda&show_icons=true&theme=github_dark&border_color=00000000" media="(prefers-color-scheme: dark)" />
+    <img src="https://github-readme-stats.vercel.app/api?username=wira-ananda&show_icons=true&theme=default&border_color=00000000" alt="GitHub Stats" style="filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.1));" />
+  </picture>
+  <picture>
+    <source srcset="https://github-readme-stats.vercel.app/api/top-langs?username=wira-ananda&show_icons=true&layout=compact&theme=github_dark&border_color=00000000" media="(prefers-color-scheme: dark)" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs?username=wira-ananda&show_icons=true&layout=compact&theme=default&border_color=00000000" alt="Top Languages" style="filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.1));" />
+  </picture>
+</div>
+
+---
+
 ### Connect with me:
 
 [![website](./img/email-light.svg)](mailto:ur.wiraananda@gmail.com?subject=Hai👋#gh-light-mode-only)
