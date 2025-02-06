@@ -58,17 +58,6 @@ You can call me Wiraa, I am a college student who interested with a Web Develope
   </table>
 </h1>
 
-<div align="center">
-  <picture>
-    <source srcset="https://github-readme-stats.vercel.app/api?username=wira-ananda&show_icons=true&theme=github_dark&border_color=00000000" media="(prefers-color-scheme: dark)" />
-    <img src="https://github-readme-stats.vercel.app/api?username=wira-ananda&show_icons=true&theme=default&border_color=00000000" alt="GitHub Stats" style="filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.1));" />
-  </picture>
-  <picture>
-    <source srcset="https://github-readme-stats.vercel.app/api/top-langs?username=wira-ananda&show_icons=true&layout=compact&theme=github_dark&border_color=00000000" media="(prefers-color-scheme: dark)" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs?username=wira-ananda&show_icons=true&layout=compact&theme=default&border_color=00000000" alt="Top Languages" style="filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.1));" />
-  </picture>
-</div>
-
 ---
 
 ### Connect with me:
