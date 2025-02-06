@@ -39,13 +39,10 @@ You can call me Wiraa, I am a college student who interested with a Web Develope
     <img src="https://github-readme-stats.vercel.app/api/top-langs?username=wira-ananda&show_icons=true&layout=compact&theme=default&border_color=00000000" alt="Top Languages" style="filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.1));" />
   </picture>
 </div>
-
-
 <br />
 
-
-
 ---
+
 ### Connect with me:
 
 [![website](./img/email-light.svg)](mailto:ur.wiraananda@gmail.com?subject=Hai👋#gh-light-mode-only)
