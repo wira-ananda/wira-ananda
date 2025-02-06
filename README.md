@@ -25,7 +25,9 @@ You can call me Wiraa, I am a college student who interested with a Web Develope
 [<img align="left" alt="Laravel" height="30px" src="https://github.com/laravel/art/blob/master/laravel-logo.png" style="padding:5px 5px;" />](https://laravel.com/docs)
 [<img align="left" alt="Vite JS" height="30px" src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Vitejs-logo.svg" style="padding:5px 5px;" />](https://vitejs.dev/)
 <br clear="left"/>
+
 ---
+
 <br />
 <div align="center">
   <picture>
