@@ -17,9 +17,9 @@ You can call me Wiraa, I am a college student who interested with a Web Develope
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React.js">
   <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js">
   <img src="https://img.shields.io/badge/Svelte-FF3E00?style=for-the-badge&logo=svelte&logoColor=white" alt="Svelte">
-  <img src="https://img.shields.io/badge/Vite-FF61E6?style=for-the-badge&logo=vite&logoColor=646CFF&labelColor=FBDA61" alt="Vite">
   <img src="https://img.shields.io/badge/Astro-FF5D01?style=for-the-badge&logo=astro&logoColor=white" alt="Astro">
   <img src="https://img.shields.io/badge/Inertia.js-654FF0?style=for-the-badge&logo=inertia&logoColor=white" alt="Inertia.js">
+  <img src="https://img.shields.io/badge/Vite-FF61E6?style=for-the-badge&logo=vite&logoColor=646CFF&labelColor=FBDA61" alt="Vite">
   <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel">
   <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
