@@ -66,10 +66,14 @@ You can call me Wiraa, I am a college student who interested with a Web Develope
 <h1 align="center">
   <table>
     <tr>
-      <td class="gif">
-        <img src="https://i.pinimg.com/originals/f9/57/6f/f9576fca9fc8ef79976a1d6327bbe9ae.gif" alt="Animated GIF" width="250px">
+      <!-- Hanya tampil di layar besar -->
+      <td align="center">
+        <picture>
+          <source media="(max-width: 600px)" srcset="">
+          <img src="https://i.pinimg.com/originals/f9/57/6f/f9576fca9fc8ef79976a1d6327bbe9ae.gif" alt="Animated GIF" width="250px">
+        </picture>
       </td>
-      <td>
+      <td align="center">
         <a href="https://github.com/wira-ananda">
           <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=wira-ananda&theme=tokyonight" alt="Profile Summary Card" />
         </a>
@@ -78,13 +82,6 @@ You can call me Wiraa, I am a college student who interested with a Web Develope
   </table>
 </h1>
 
-<style>
-  @media (max-width: 600px) {
-    .gif {
-      display: none;
-    }
-  }
-</style>
 
 <div align="center">
   <picture>
