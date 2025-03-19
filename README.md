@@ -66,7 +66,7 @@ You can call me Wiraa, I am a college student who interested with a Web Develope
 <h1 align="center">
   <table>
     <tr>
-      <td>
+      <td class="gif">
         <img src="https://i.pinimg.com/originals/f9/57/6f/f9576fca9fc8ef79976a1d6327bbe9ae.gif" alt="Animated GIF" width="250px">
       </td>
       <td>
@@ -78,7 +78,14 @@ You can call me Wiraa, I am a college student who interested with a Web Develope
   </table>
 </h1>
 
-<br />
+<style>
+  @media (max-width: 600px) {
+    .gif {
+      display: none;
+    }
+  }
+</style>
+
 <div align="center">
   <picture>
     <source srcset="https://github-readme-stats.vercel.app/api?username=wira-ananda&show_icons=true&theme=github_dark&border_color=00000000" media="(prefers-color-scheme: dark)" />
