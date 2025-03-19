@@ -7,7 +7,7 @@ You can call me Wiraa, I am a college student who interested with a Web Develope
 - 🌱 I'm currently learning **Web Developing, Designing**
 - 👨‍💻 My portfolio available here, [Web Dev](https://wiraananda.netlify.app/) & [Design](https://drive.google.com/drive/folders/1PCoXXgTsoPNJ2nHo-EUKJ1tZTSyApa8v?usp=drive_link)
 - 📫 How to reach me **ur.wiraananda@gmail.com**
-- 📄 Access my Curriculum Vitae [here](https://drive.google.com/drive/folders/11trotJljSG86LNoPZl0nCCoi7VRn19iL?usp=drive_link)
+- 📄 Access my Resume [here](https://drive.google.com/drive/folders/11trotJljSG86LNoPZl0nCCoi7VRn19iL?usp=drive_link)
 
 ---
 
