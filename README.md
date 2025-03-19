@@ -63,22 +63,6 @@ You can call me Wiraa, I am a college student who interested with a Web Develope
 
 ---
 <h1 align="center">
-  <!-- Hanya tampil di layar besar -->
-  <a href="https://github.com/wira-ananda">
-    <img width="250px" src="https://i.pinimg.com/originals/f9/57/6f/f9576fca9fc8ef79976a1d6327bbe9ae.gif" alt="Animated GIF">
-  </a>
-  
-  <br />
-
-  <!-- GitHub Stats (Selalu tampil di semua ukuran layar) -->
-  <a href="https://github.com/wira-ananda">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=wira-ananda&theme=tokyonight" alt="GitHub Profile Summary">
-  </a>
-</h1>
-
-
-<!--
-<h1 align="center">
   <table>
     <tr>
       <td>
@@ -92,6 +76,7 @@ You can call me Wiraa, I am a college student who interested with a Web Develope
     </tr>
   </table>
 </h1>
+<!--
 <div align="center">
   <picture>
     <source srcset="https://github-readme-stats.vercel.app/api?username=wira-ananda&show_icons=true&theme=github_dark&border_color=00000000" media="(prefers-color-scheme: dark)" />
