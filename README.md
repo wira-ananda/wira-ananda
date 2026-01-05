@@ -3,7 +3,7 @@
 - 🌱 I'm currently learning **Software Developing and Graphic Design**
 - 👨‍💻 My portfolio available [here](https://drive.google.com/drive/folders/1PCoXXgTsoPNJ2nHo-EUKJ1tZTSyApa8v)
 - 📫 How to reach me **ur.wiraananda@gmail.com**
-- 📄 Access my resume [here](https://drive.google.com/drive/folders/1Pnw6dLdDGn-kNdoKNo3cPiej_ytzdttU)
+- 📄 Check my resume [here](https://drive.google.com/drive/folders/1Pnw6dLdDGn-kNdoKNo3cPiej_ytzdttU)
 
 ---
 
@@ -89,7 +89,7 @@
 
 ---
 
-### Created By:
+### Created by:
 
 [![website](./img/wiraa-light.svg)](https://wiraananda.netlify.app/#gh-light-mode-only)
 [![website](./img/wiraa-dark.svg)](https://wiraananda.netlify.app/#gh-dark-mode-only)
