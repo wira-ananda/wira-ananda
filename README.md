@@ -20,9 +20,6 @@ You can call me Wiraa, I am a college student who interested with a Web Develope
 <a href="https://nextjs.org/docs" target="_blank">
   <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js">
 </a>
-<a href="https://svelte.dev/docs" target="_blank">
-  <img src="https://img.shields.io/badge/Svelte-FF3E00?style=for-the-badge&logo=svelte&logoColor=white" alt="Svelte">
-</a>
 <a href="https://docs.astro.build/" target="_blank">
   <img src="https://img.shields.io/badge/Astro-FF5D01?style=for-the-badge&logo=astro&logoColor=white" alt="Astro">
 </a>
@@ -38,6 +35,10 @@ You can call me Wiraa, I am a college student who interested with a Web Develope
 <a href="https://expressjs.com/" target="_blank">
   <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js">
 </a>
+<a href="https://nestjs.com/" target="_blank">
+  <img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" alt="NestJS">
+</a>
+
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
 </a>
