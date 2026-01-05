@@ -67,21 +67,6 @@
     <img src="https://github-readme-stats.vercel.app/api/top-langs?username=wira-ananda&show_icons=true&layout=compact&theme=default&border_color=00000000" alt="Top Languages" style="filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.1));" />
   </picture>
 </div>
--->
-
-### Connect with me:
-
-[![website](./img/email-light.svg)](mailto:ur.wiraananda@gmail.com?subject=Hai👋#gh-light-mode-only)
-[![website](./img/email-dark.svg)](mailto:ur.wiraananda@gmail.com?subject=Hai👋#gh-dark-mode-only)
-&nbsp;&nbsp;
-[![website](./img/linkedin-light.svg)](https://www.linkedin.com/in/wira-ananda#gh-light-mode-only)
-[![website](./img/linkedin-dark.svg)](https://www.linkedin.com/in/wira-ananda#gh-dark-mode-only)
-&nbsp;&nbsp;
-[![website](./img/instagram-light.svg)](https://instagram.com/wiraanandaa_#gh-light-mode-only)
-[![website](./img/instagram-dark.svg)](https://instagram.com/wiraanandaa_#gh-dark-mode-only)
-&nbsp;&nbsp;
-[![website](./img/spotify-light.svg)](https://open.spotify.com/playlist/4J4KrkM449lN0q3vBWnQew#gh-light-mode-only)
-[![website](./img/spotify-dark.svg)](https://open.spotify.com/playlist/4J4KrkM449lN0q3vBWnQew#gh-dark-mode-only)
 
 ---
 
