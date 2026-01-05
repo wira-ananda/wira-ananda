@@ -1,10 +1,6 @@
-## Hi there, I'm [Wiraa](https://wiraananda.netlify.app/)👋
+### Hi there, I'm [Wiraa](https://wiraananda.netlify.app/)👋
 
-### I'm a Full Stack Developer
-
-You can call me Wiraa, I am a college student who interested with a Web Developer and Designer, with unique vision on the creative field and have a lot of creative stuff. I love designing something and implementing it with a developing code.
-
-- 🌱 I'm currently learning **Software Developing, Graphic Designing**
+- 🌱 I'm currently learning **Software Developing and Graphic Design**
 - 👨‍💻 My portfolio available [here](https://drive.google.com/drive/folders/1PCoXXgTsoPNJ2nHo-EUKJ1tZTSyApa8v)
 - 📫 How to reach me **ur.wiraananda@gmail.com**
 - 📄 Access my Resume [here](https://drive.google.com/drive/folders/1Pnw6dLdDGn-kNdoKNo3cPiej_ytzdttU)
@@ -81,9 +77,6 @@ You can call me Wiraa, I am a college student who interested with a Web Develope
 
 [![website](./img/email-light.svg)](mailto:ur.wiraananda@gmail.com?subject=Hai👋#gh-light-mode-only)
 [![website](./img/email-dark.svg)](mailto:ur.wiraananda@gmail.com?subject=Hai👋#gh-dark-mode-only)
-&nbsp;&nbsp;
-[![website](./img/wa-light.svg)](https://wa.me/6281527018918#gh-light-mode-only)
-[![website](./img/wa-dark.svg)](https://wa.me/6281527018918#gh-dark-mode-only)
 &nbsp;&nbsp;
 [![website](./img/linkedin-light.svg)](https://www.linkedin.com/in/wira-ananda#gh-light-mode-only)
 [![website](./img/linkedin-dark.svg)](https://www.linkedin.com/in/wira-ananda#gh-dark-mode-only)
