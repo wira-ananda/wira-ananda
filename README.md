@@ -3,11 +3,11 @@
 - 🌱 I'm currently learning **Software Developing and Graphic Design**
 - 👨‍💻 My portfolio available [here](https://drive.google.com/drive/folders/1PCoXXgTsoPNJ2nHo-EUKJ1tZTSyApa8v)
 - 📫 How to reach me **ur.wiraananda@gmail.com**
-- 📄 Access my Resume [here](https://drive.google.com/drive/folders/1Pnw6dLdDGn-kNdoKNo3cPiej_ytzdttU)
+- 📄 Access my resume [here](https://drive.google.com/drive/folders/1Pnw6dLdDGn-kNdoKNo3cPiej_ytzdttU)
 
 ---
 
-### Languages and Tools:
+### My gear:
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
 <a href="https://react.dev/" target="_blank">
