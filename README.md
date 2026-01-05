@@ -20,7 +20,7 @@
   <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js">
 </a>
   <a href="https://nestjs.com/" target="_blank">
-  <img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" alt="NestJS">
+  <img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" alt="Nest.JS">
 </a>
 <a href="https://laravel.com/docs" target="_blank">
   <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel">
@@ -28,10 +28,6 @@
 <a href="https://inertiajs.com/" target="_blank">
   <img src="https://img.shields.io/badge/Inertia.js-654FF0?style=for-the-badge&logo=inertia&logoColor=white" alt="Inertia.js">
 </a>
-<a href="https://vitejs.dev/" target="_blank">
-  <img src="https://img.shields.io/badge/Vite-FF61E6?style=for-the-badge&logo=vite&logoColor=646CFF&labelColor=FBDA61" alt="Vite">
-</a>
-
 <a href="https://docs.astro.build/" target="_blank">
   <img src="https://img.shields.io/badge/Astro-FF5D01?style=for-the-badge&logo=astro&logoColor=white" alt="Astro">
 </a>
