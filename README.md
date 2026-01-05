@@ -4,10 +4,10 @@
 
 You can call me Wiraa, I am a college student who interested with a Web Developer and Designer, with unique vision on the creative field and have a lot of creative stuff. I love designing something and implementing it with a developing code.
 
-- 🌱 I'm currently learning **Web Developing, Designing**
-- 👨‍💻 My portfolio available here, [Web Dev](https://wiraananda.netlify.app/) & [Design](https://drive.google.com/drive/folders/1PCoXXgTsoPNJ2nHo-EUKJ1tZTSyApa8v?usp=drive_link)
+- 🌱 I'm currently learning **Software Developing, Graphic Designing**
+- 👨‍💻 My portfolio available [here](https://drive.google.com/drive/folders/1PCoXXgTsoPNJ2nHo-EUKJ1tZTSyApa8v)
 - 📫 How to reach me **ur.wiraananda@gmail.com**
-- 📄 Access my Resume [here](https://drive.google.com/drive/folders/11trotJljSG86LNoPZl0nCCoi7VRn19iL?usp=drive_link)
+- 📄 Access my Resume [here]([https://drive.google.com/drive/folders/11trotJljSG86LNoPZl0nCCoi7VRn19iL?usp=drive_link](https://drive.google.com/drive/folders/1Pnw6dLdDGn-kNdoKNo3cPiej_ytzdttU))
 
 ---
 
