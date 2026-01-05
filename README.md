@@ -67,12 +67,3 @@
     <img src="https://github-readme-stats.vercel.app/api/top-langs?username=wira-ananda&show_icons=true&layout=compact&theme=default&border_color=00000000" alt="Top Languages" style="filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.1));" />
   </picture>
 </div>
-
----
-
-### Created by:
-
-[![website](./img/wiraa-light.svg)](https://wiraananda.netlify.app/#gh-light-mode-only)
-[![website](./img/wiraa-dark.svg)](https://wiraananda.netlify.app/#gh-dark-mode-only)
-
-[webdev]: https://wiraananda.netlify.app/
