@@ -38,7 +38,6 @@
 
 </div>
 
-<h1 align="center">
   <table>
     <tr>
       <td>
@@ -51,7 +50,7 @@
       </td>
     </tr>
   </table>
-</h1>
+
 
 <!--
 <div align="center">
