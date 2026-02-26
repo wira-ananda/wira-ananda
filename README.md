@@ -38,9 +38,6 @@
 
 </div>
 
-
-
----
 <h1 align="center">
   <table>
     <tr>
