@@ -35,8 +35,9 @@
 <a href="https://tailwindcss.com/docs" target="_blank">
   <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS">
 </a>
-
 </div>
+
+---
 
   <table>
     <tr>
