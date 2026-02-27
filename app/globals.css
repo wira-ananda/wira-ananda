@@ -2,13 +2,12 @@
 @import "@radix-ui/themes/styles.css";
 
 html {
-  transition:
-    background-color 0.3s ease-in-out,
-    color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
 }
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  transition: color 0.3s ease-in-out;
 }
 
 .light {

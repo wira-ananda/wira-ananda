@@ -1,14 +1,23 @@
 "use client";
-
-import React from "react";
-import { useTheme } from "next-themes"; // Gunakan useTheme dari next-themes
+import React, { useEffect, useState } from "react";
+import { useTheme } from "next-themes";
+import { Button } from "@radix-ui/themes";
 
 export default function ThemeToggle() {
-  const { theme, setTheme } = useTheme(); // Mengambil tema dan fungsi setTheme
+  const { theme, setTheme } = useTheme();
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  if (!mounted) {
+    return null; // Jangan render komponen apapun selama SSR
+  }
 
   return (
-    <button onClick={() => setTheme(theme === "light" ? "dark" : "light")}>
+    <Button onClick={() => setTheme(theme === "light" ? "dark" : "light")}>
       Switch to {theme === "light" ? "Dark" : "Light"} Mode
-    </button>
+    </Button>
   );
 }
