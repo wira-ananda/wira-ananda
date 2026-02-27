@@ -1,7 +1,8 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import { useTheme } from "next-themes";
-import { Button } from "@radix-ui/themes";
+import { Button } from "@/components/ui/button";
+import { MdWbSunny, MdNightlight } from "react-icons/md";
 
 export default function ThemeToggle() {
   const { theme, setTheme } = useTheme();
@@ -15,9 +16,12 @@ export default function ThemeToggle() {
     return null; // Jangan render komponen apapun selama SSR
   }
 
+  const onClick = () => setTheme(theme === "light" ? "dark" : "light");
   return (
-    <Button onClick={() => setTheme(theme === "light" ? "dark" : "light")}>
-      Switch to {theme === "light" ? "Dark" : "Light"} Mode
-    </Button>
+    <>
+      <Button onClick={onClick}>
+        {theme === "light" ? <MdWbSunny /> : <MdNightlight />}
+      </Button>
+    </>
   );
 }
