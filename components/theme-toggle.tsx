@@ -19,9 +19,13 @@ export default function ThemeToggle() {
   const onClick = () => setTheme(theme === "light" ? "dark" : "light");
   return (
     <>
-      <Button onClick={onClick}>
-        {theme === "light" ? <MdWbSunny /> : <MdNightlight />}
-      </Button>
+      <div onClick={onClick} className={`${theme} cursor-pointer m-3`}>
+        {theme === "light" ? (
+          <MdWbSunny size={20} className="mx-auto" />
+        ) : (
+          <MdNightlight size={20} className="mx-auto" />
+        )}
+      </div>
     </>
   );
 }

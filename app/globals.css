@@ -5,14 +5,6 @@
 
 @custom-variant dark (&:is(.dark *));
 
-html {
-  transition: background-color 0.3s ease-in-out;
-}
-
-body {
-  transition: color 0.3s ease-in-out;
-}
-
 .light {
   background-color: #fff;
   color: #000;
@@ -168,10 +160,10 @@ body {
 
 .card-nav-container {
   position: absolute;
-  top: 2em;
+  top: 1em;
   left: 50%;
   transform: translateX(-50%);
-  width: 90%;
+  width: 100%;
   max-width: 800px;
   z-index: 99;
   box-sizing: border-box;
@@ -181,13 +173,16 @@ body {
   display: block;
   height: 60px;
   padding: 0;
-  background-color: white;
-  border: 0.5px solid rgba(255, 255, 255, 0.1);
-  border-radius: 0.75rem;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  color: #111;
   position: relative;
   overflow: hidden;
   will-change: height;
+}
+
+html.dark .card-nav {
+  background-color: #0a0a0a;
+  color: #ffffff;
 }
 
 .card-nav-top {

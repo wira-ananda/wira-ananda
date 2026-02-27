@@ -1,10 +1,11 @@
 "use client";
-import React, { useLayoutEffect, useRef, useState } from "react";
+import React, { useEffect, useLayoutEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
 // use your own icon import if react-icons is not available
 import { GoArrowUpRight } from "react-icons/go";
 import Image from "next/image";
 import ThemeToggle from "./theme-toggle";
+import { useTheme } from "next-themes";
 
 type CardNavLink = {
   label: string;
@@ -167,20 +168,20 @@ const CardNav: React.FC<CardNavProps> = ({
       <nav
         ref={navRef}
         className={`card-nav ${isExpanded ? "open" : ""}`}
-        style={{ backgroundColor: baseColor }}
+        suppressHydrationWarning
       >
-        <div className="card-nav-top">
+        <div className="card-nav-top mx-2">
           <div
             className={`hamburger-menu ${isHamburgerOpen ? "open" : ""}`}
             onClick={toggleMenu}
             role="button"
             aria-label={isExpanded ? "Close menu" : "Open menu"}
             tabIndex={0}
-            style={{ color: menuColor || "#000" }}
           >
             <div className="hamburger-line" />
             <div className="hamburger-line" />
           </div>
+
           {logo && (
             <div className="logo-container">
               <Image src={logo} alt={logoAlt} className="logo" />
@@ -207,10 +208,7 @@ const CardNav: React.FC<CardNavProps> = ({
                     href={lnk.href}
                     aria-label={lnk.ariaLabel}
                   >
-                    <GoArrowUpRight
-                      className="nav-card-link-icon"
-                      aria-hidden="true"
-                    />
+                    <GoArrowUpRight aria-hidden />
                     {lnk.label}
                   </a>
                 ))}
