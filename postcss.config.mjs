@@ -1,6 +1,15 @@
 const config = {
   plugins: {
-    "@tailwindcss/postcss": {},
+    "@tailwindcss/postcss": {
+      theme: {
+        extend: {
+          fontFamily: {
+            // Menambahkan Cascadia Mono
+            cascadia: ["Cascadia Mono", "monospace"],
+          },
+        },
+      },
+    },
   },
 };
 

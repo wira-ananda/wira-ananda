@@ -1,26 +1,49 @@
 @import "tailwindcss";
+@import "@radix-ui/themes/styles.css";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  transition:
+    background-color 0.3s ease-in-out,
+    color 0.3s ease-in-out;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.light {
+  background-color: #fff;
+  color: #000;
+}
+
+.dark {
+  background-color: #000;
+  color: #fff;
+}
+
+.cascadia-mono-regular {
+  font-family: "Cascadia Mono", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400; /* Regular weight */
+}
+
+.cascadia-mono-bold {
+  font-family: "Cascadia Mono", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700; /* Bold weight */
+}
+.arsir {
+  background-color: #e5e5f7;
+  opacity: 0.1;
+  background: repeating-linear-gradient(
+    -30deg,
+    #707070,
+    #707070 2px,
+    #e5e5f7 2px,
+    #e5e5f7 10px
+  );
+}
+
+.border-bg {
+  border: 1px solid #d1d5db;
 }
