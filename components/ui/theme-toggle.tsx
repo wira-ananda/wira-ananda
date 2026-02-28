@@ -1,7 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import { useTheme } from "next-themes";
-import { Button } from "@/components/ui/button";
 import { MdWbSunny, MdNightlight } from "react-icons/md";
 
 export default function ThemeToggle() {

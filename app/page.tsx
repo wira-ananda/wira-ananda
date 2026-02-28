@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Hero from "@/components/hero";
-import ThemeToggle from "@/components/theme-toggle";
+import ThemeToggle from "@/components/ui/theme-toggle";
 import CardNav from "@/components/navbar";
 
 export default function Home() {
@@ -47,6 +47,7 @@ export default function Home() {
         ease="power3.out"
         theme="light"
       />
+      <Hero />
     </div>
   );
 }

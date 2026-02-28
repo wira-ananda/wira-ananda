@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "next-themes";
+import LenisScroll from "@/components/ui/lenis-component";
 
 export const metadata: Metadata = {
   title: "Wira Ananda - Web Developer",
@@ -24,6 +25,7 @@ export default function RootLayout({
       </head>
       <body className={`antialiased font-cascadia`}>
         <ThemeProvider attribute="class" enableSystem defaultTheme="system">
+          <LenisScroll />
           {children}
         </ThemeProvider>
       </body>

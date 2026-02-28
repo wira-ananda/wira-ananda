@@ -1,11 +1,10 @@
 "use client";
 import React, { useEffect, useLayoutEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
-// use your own icon import if react-icons is not available
 import { GoArrowUpRight } from "react-icons/go";
 import Image from "next/image";
-import ThemeToggle from "./theme-toggle";
-import { useTheme } from "next-themes";
+import ThemeToggle from "./ui/theme-toggle";
+import Headroom from "react-headroom";
 
 type CardNavLink = {
   label: string;
@@ -164,10 +163,10 @@ const CardNav: React.FC<CardNavProps> = ({
   };
 
   return (
-    <div className={`card-nav-container ${className}`}>
+    <Headroom>
       <nav
         ref={navRef}
-        className={`card-nav ${isExpanded ? "open" : ""}`}
+        className={` card-nav h-15 w-full p-0 absolute overflow-hidden ${isExpanded ? "open" : ""} mx-auto`}
         suppressHydrationWarning
       >
         <div className="card-nav-top mx-2">
@@ -217,7 +216,7 @@ const CardNav: React.FC<CardNavProps> = ({
           ))}
         </div>
       </nav>
-    </div>
+    </Headroom>
   );
 };
 

@@ -6,13 +6,13 @@
 @custom-variant dark (&:is(.dark *));
 
 .light {
-  background-color: #fff;
-  color: #000;
+  background-color: #e6e6e6;
+  color: #060010;
 }
 
 .dark {
-  background-color: #000;
-  color: #fff;
+  background-color: #060010;
+  color: oklch(92.494% 0.00011 271.152);
   --background: oklch(0.145 0 0);
   --foreground: oklch(0.985 0 0);
   --card: oklch(0.205 0 0);
@@ -116,7 +116,7 @@
 
 :root {
   --radius: 0.625rem;
-  --background: oklch(1 0 0);
+  --background: oklch(92.494% 0.00011 271.152);
   --foreground: oklch(0.145 0 0);
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.145 0 0);
@@ -158,31 +158,41 @@
   }
 }
 
-.card-nav-container {
-  position: absolute;
-  top: 1em;
+/* .card-nav-container {
+  position: sticky;
+  top: 0;
   left: 50%;
   transform: translateX(-50%);
   width: 100%;
-  max-width: 800px;
   z-index: 99;
   box-sizing: border-box;
-}
+} */
 
-.card-nav {
+/* .card-nav {
   display: block;
   height: 60px;
+  width: 100%;
   padding: 0;
-  background-color: #ffffff;
+  background-color: #e6e6e6;
   color: #111;
   position: relative;
   overflow: hidden;
   will-change: height;
-}
+} */
 
+.card-nav {
+  background-color: transparent;
+  color: #111;
+}
 html.dark .card-nav {
-  background-color: #0a0a0a;
-  color: #ffffff;
+  background-color: transparent;
+  color: #e6e6e6;
+}
+.card-nav.open {
+  background-color: #e6e6e6;
+}
+html.dark .card-nav.open {
+  background-color: #060010;
 }
 
 .card-nav-top {
@@ -369,4 +379,16 @@ html.dark .card-nav {
   .nav-card-link {
     font-size: 15px;
   }
+}
+
+.ripple-grid-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #e6e6e6;
+}
+
+html.dark .ripple-grid-container {
+  background-color: #060010;
+  color: #e6e6e6;
 }
