@@ -5,14 +5,22 @@
 
 @custom-variant dark (&:is(.dark *));
 
+button:hover {
+  color: #888888; /* Warna hover untuk tema terang */
+}
+
+button.dark:hover {
+  color: #99a1af; /* Warna hover untuk tema gelap */
+}
+
 .light {
-  background-color: #e6e6e6;
-  color: #060010;
+  background-color: #f5ecec;
+  color: #161616;
 }
 
 .dark {
-  background-color: #060010;
-  color: oklch(92.494% 0.00011 271.152);
+  background-color: #161616;
+  color: #f5ecec;
   --background: oklch(0.145 0 0);
   --foreground: oklch(0.985 0 0);
   --card: oklch(0.205 0 0);
@@ -158,41 +166,19 @@
   }
 }
 
-/* .card-nav-container {
-  position: sticky;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100%;
-  z-index: 99;
-  box-sizing: border-box;
-} */
-
-/* .card-nav {
-  display: block;
-  height: 60px;
-  width: 100%;
-  padding: 0;
-  background-color: #e6e6e6;
-  color: #111;
-  position: relative;
-  overflow: hidden;
-  will-change: height;
-} */
-
 .card-nav {
-  background-color: transparent;
+  background-color: #fff;
   color: #111;
 }
 html.dark .card-nav {
-  background-color: transparent;
-  color: #e6e6e6;
+  background-color: #020005;
+  color: #fff;
 }
 .card-nav.open {
-  background-color: #e6e6e6;
+  background-color: #fff;
 }
 html.dark .card-nav.open {
-  background-color: #060010;
+  background-color: #020005;
 }
 
 .card-nav-top {
@@ -379,16 +365,4 @@ html.dark .card-nav.open {
   .nav-card-link {
     font-size: 15px;
   }
-}
-
-.ripple-grid-container {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  background-color: #e6e6e6;
-}
-
-html.dark .ripple-grid-container {
-  background-color: #060010;
-  color: #e6e6e6;
 }
