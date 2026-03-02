@@ -6,11 +6,11 @@
 @custom-variant dark (&:is(.dark *));
 
 button:hover {
-  color: #888888; /* Warna hover untuk tema terang */
+  color: #888888;
 }
 
 button.dark:hover {
-  color: #99a1af; /* Warna hover untuk tema gelap */
+  color: #99a1af;
 }
 
 .light {
