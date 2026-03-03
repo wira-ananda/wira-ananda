@@ -20,7 +20,7 @@ export default function About() {
   return (
     <main>
       <Accordion type="multiple">
-        <div className={`${contentWidth} mx-auto border-x text-sm w-full`}>
+        <div className={`${contentWidth} mx-auto border-x text-sm `}>
           <AccordionItem value="uniqueValue">
             <AccordionHeader>
               <AccordionTrigger className="cursor-pointer flex justify-between items-center w-full px-4 transition-all duration-300">

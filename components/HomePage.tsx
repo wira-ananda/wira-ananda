@@ -47,7 +47,9 @@ export function EmptySection() {
         transparent 10px`;
   return (
     <div
-      className="border-y grid md:grid-cols-[22.5%_55%_22.5%] grid-cols-[2.5%_95%_2.5%] h-9"
+      className={`border-y grid md:grid-cols-[22.5%_55%_22.5%] grid-cols-[2.5%_95%_2.5%] h-9 ${
+        theme === "dark" ? "dark-empty-section" : "light-empty-section"
+      }`}
       style={{
         backgroundImage: `
         repeating-linear-gradient(

@@ -47,7 +47,7 @@ export default function Hero() {
                   <HoverCardTrigger asChild>
                     <RiVerifiedBadgeFill
                       size={20}
-                      className="text-blue-400 cursor-pointer"
+                      className="text-blue-400 cursor-pointer md:block hidden"
                     />
                   </HoverCardTrigger>
                   <HoverCardContent
