@@ -16,7 +16,8 @@ export default function Contact() {
           title="wiraanandaa_"
           subtitle="1.000 followers"
           rightIcon={<CiLocationArrow1 size={20} />}
-          className="border-r border-b hover:text-red-400 transition-all duration-300"
+          className="md:border-r border-b  hover:text-red-400 transition-all duration-300"
+          link="https://www.instagram.com/wiraanandaa_/"
         />
         <ContactItem
           imageSrc="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png"
@@ -24,7 +25,8 @@ export default function Contact() {
           title="wira-ananda"
           subtitle="1.000 followers"
           rightIcon={<CiLocationArrow1 size={20} />}
-          className="border-l border-b hover:text-blue-400 transition-all duration-300"
+          className="md:border-l border-b md:border-t-0 border-t hover:text-blue-400 transition-all duration-300"
+          link="https://www.linkedin.com/in/wira-ananda/"
         />
         <ContactItem
           imageSrc="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png"
@@ -32,7 +34,8 @@ export default function Contact() {
           title="wira-ananda"
           subtitle="1.000 followers"
           rightIcon={<CiLocationArrow1 size={20} />}
-          className="border-t border-r hover:text-gray-500 transition-all duration-300"
+          className="border-t border-b md:border-b-0 md:border-r hover:text-gray-500 transition-all duration-300"
+          link="https://github.com/wira-ananda"
         />
         <ContactItem
           imageSrc="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png"
@@ -40,7 +43,8 @@ export default function Contact() {
           title="ur.wiraananda@gmail.com"
           subtitle="Contact via Email"
           rightIcon={<CiLocationArrow1 size={20} />}
-          className="border-t border-l hover:text-red-400 transition-all duration-300"
+          className="border-t md:border-l hover:text-red-400 transition-all duration-300"
+          link="mailto:ur.wiraananda@gmail.com?subject=Software%20Developer%20Inquiry&body=Halo%20Wira👋,%0ASaya%20melihat%20portfolio%20Anda..."
         />
       </div>
       <EmptySection />

@@ -9,6 +9,7 @@ type HoverImageItemProps = {
   rightIcon?: ReactNode;
   imageSize?: number;
   className?: string;
+  link?: string;
 };
 
 export default function ContactItem({
@@ -19,9 +20,10 @@ export default function ContactItem({
   rightIcon,
   imageSize = 40,
   className,
+  link,
 }: HoverImageItemProps) {
   return (
-    <span
+    <a
       className={`
         group
         h-20
@@ -32,6 +34,7 @@ export default function ContactItem({
         cursor-pointer
         ${className}
       `}
+      href={link}
     >
       <div className="flex items-center gap-4">
         <Image
@@ -71,6 +74,6 @@ export default function ContactItem({
           {rightIcon}
         </div>
       )}
-    </span>
+    </a>
   );
 }

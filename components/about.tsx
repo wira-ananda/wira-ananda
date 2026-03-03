@@ -23,8 +23,7 @@ export default function About() {
         <div className={`${contentWidth} mx-auto border-x text-sm `}>
           <AccordionItem value="uniqueValue">
             <AccordionHeader>
-              <AccordionTrigger className="cursor-pointer flex justify-between items-center w-full px-4 transition-all duration-300">
-                <h1 className="text-2xl font-semibold">About</h1>
+              <AccordionTrigger className="cursor-pointer  justify-between items-center px-4 transition-all duration-300 w-full">
                 <AccordionTriggerWithIcon />
               </AccordionTrigger>
             </AccordionHeader>
@@ -115,9 +114,13 @@ function AccordionItemContent() {
 
 function AccordionTriggerWithIcon() {
   const { isOpen } = useAccordionItem();
+  const { theme } = useTheme();
 
   return (
-    <div className="">
+    <div
+      className={`${!isOpen ? `text-gray-500 ${theme === "dark" ? "hover:text-white" : "hover:text-black"} transition-all duration-300` : ""} flex justify-between items-center w-full`}
+    >
+      <h1 className={`text-2xl font-semibold `}>About</h1>
       {isOpen ? (
         <ChevronUpIcon className="w-5 h-5" />
       ) : (
