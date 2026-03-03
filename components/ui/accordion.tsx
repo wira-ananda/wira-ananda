@@ -78,23 +78,7 @@ type AccordionTriggerProps = React.ComponentProps<
 >;
 
 function AccordionTrigger(props: AccordionTriggerProps) {
-  const { isOpen } = useAccordionItem();
-
   return (
-    // <AccordionPrimitive.Trigger
-    //   data-slot="accordion-trigger"
-    //   {...props}
-    //   className="flex items-center w-full"
-    // >
-    //   {props.children}
-    //   <div className="ml-2">
-    //     {isOpen ? (
-    //       <ChevronUpIcon className="w-5 h-5" />
-    //     ) : (
-    //       <ChevronDownIcon className="w-5 h-5" />
-    //     )}
-    //   </div>
-    // </AccordionPrimitive.Trigger>
     <AccordionPrimitive.Trigger data-slot="accordion-trigger" {...props} />
   );
 }

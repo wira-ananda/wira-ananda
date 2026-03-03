@@ -22,7 +22,7 @@ export default function About() {
         <div className={`${contentWidth} mx-auto border-x text-sm w-full`}>
           <AccordionItem value="uniqueValue">
             <AccordionHeader>
-              <AccordionTrigger className="flex justify-between items-center w-full border-b px-4">
+              <AccordionTrigger className="cursor-pointer flex justify-between items-center w-full border-b px-4 transition-all duration-300">
                 <h1 className=" text-2xl font-semibold">About</h1>
                 <AccordionTriggerWithIcon />
               </AccordionTrigger>
@@ -110,7 +110,7 @@ function AccordionItemContent() {
 }
 
 function AccordionTriggerWithIcon() {
-  const { isOpen } = useAccordionItem(); // Mengambil status isOpen dari AccordionItem
+  const { isOpen } = useAccordionItem();
 
   return (
     <div className="">
