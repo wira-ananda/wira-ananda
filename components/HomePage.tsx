@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Image from "next/image";
 import Hero from "@/components/hero";
 import { useTheme } from "next-themes";
@@ -7,6 +7,7 @@ import Navbar from "@/components/nav";
 import Opening from "./Opening";
 import About from "./about";
 import Contact from "./contact";
+import Projects from "./projects";
 
 export default function HomePage() {
   const { theme } = useTheme();
@@ -28,6 +29,7 @@ export default function HomePage() {
         <Hero />
         <About />
         <Contact />
+        <Projects />
       </>
     </div>
   );

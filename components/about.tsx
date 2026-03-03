@@ -106,7 +106,7 @@ function AccordionItemContent() {
           <FaLaravel size={12} />
           Laravel
         </span>{" "}
-        dalam pengembangan aplikasi.
+        dalam Software Development.
       </p>
     </article>
   );

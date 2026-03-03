@@ -1,10 +1,13 @@
+"use client";
 import React from "react";
 import { contentWidth, EmptySection } from "./HomePage";
 import Image from "next/image";
 import { CiLocationArrow1 } from "react-icons/ci";
 import ContactItem from "./ui/ContactItem";
+import { useTheme } from "next-themes";
 
 export default function Contact() {
+  const { theme } = useTheme();
   return (
     <section className={` `}>
       <div
@@ -34,8 +37,8 @@ export default function Contact() {
           title="wira-ananda"
           subtitle="1.000 followers"
           rightIcon={<CiLocationArrow1 size={20} />}
-          className="border-t border-b md:border-b-0 md:border-r hover:text-gray-500 transition-all duration-300"
-          link="https://github.com/wira-ananda"
+          className={`border-t border-b md:border-b-0 md:border-r hover:text-gray-500 transition-all duration-300"
+          link="https://github.com/wira-ananda`}
         />
         <ContactItem
           imageSrc="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png"

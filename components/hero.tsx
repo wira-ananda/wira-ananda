@@ -52,16 +52,15 @@ export default function Hero() {
                   </HoverCardTrigger>
                   <HoverCardContent
                     side="right"
-                    className={`flex w-64 flex-col gap-0.5 ${theme} `}
+                    className={`flex w-64 gap-0.5 ${theme} `}
                   >
-                    {/* <div className="font-semibold">verified</div> */}
+                    <span>🎯</span>
                     <p>
-                      Junior Web Developer dengan fokus pada UI, performa, dan
-                      pengalaman pengguna.
+                      <span className="font-semibold">
+                        Junior Web Developer
+                      </span>{" "}
+                      — UI, performance, best practice.
                     </p>
-                    {/* <div className="mt-1 text-xs text-muted-foreground">
-                    Joined December 202
-                  </div> */}
                   </HoverCardContent>
                 </HoverCard>
               </div>

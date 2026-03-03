@@ -56,7 +56,7 @@ export default function ContactItem({
         />
 
         <div className="leading-normal text-[.8rem]">
-          <h3 className="font-semibold">{title}</h3>
+          <h3 className="font-semibold ">{title}</h3>
           {subtitle && (
             <h3 className="font-thin text-muted-foreground">{subtitle}</h3>
           )}
