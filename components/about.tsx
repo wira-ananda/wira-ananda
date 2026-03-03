@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { contentWidth } from "./HomePage";
+import { contentWidth, EmptySection } from "./HomePage";
 import { FaReact } from "react-icons/fa6";
 import { FaNodeJs } from "react-icons/fa";
 import { TbBrandNextjs } from "react-icons/tb";
@@ -14,6 +14,7 @@ import {
   useAccordionItem, // Menggunakan useAccordionItem di dalam AccordionItem
 } from "./ui/accordion";
 import { ChevronDownIcon, ChevronUpIcon } from "lucide-react";
+import { useTheme } from "next-themes";
 
 export default function About() {
   return (
@@ -22,26 +23,29 @@ export default function About() {
         <div className={`${contentWidth} mx-auto border-x text-sm w-full`}>
           <AccordionItem value="uniqueValue">
             <AccordionHeader>
-              <AccordionTrigger className="cursor-pointer flex justify-between items-center w-full border-b px-4 transition-all duration-300">
-                <h1 className=" text-2xl font-semibold">About</h1>
+              <AccordionTrigger className="cursor-pointer flex justify-between items-center w-full px-4 transition-all duration-300">
+                <h1 className="text-2xl font-semibold">About</h1>
                 <AccordionTriggerWithIcon />
               </AccordionTrigger>
             </AccordionHeader>
-            <AccordionContent>
+            <AccordionContent className="border-t">
               <AccordionItemContent />
             </AccordionContent>
           </AccordionItem>
         </div>
       </Accordion>
+      <EmptySection />
     </main>
   );
 }
 
 function AccordionItemContent() {
+  const { theme } = useTheme();
+  const colorText = theme === "dark" ? "text-zinc-400" : "text-zinc-800";
   return (
     <article className="px-4 py-3 leading-relaxed gap-2 space-y-2 font-thin">
       <figure>Halo! Saya Wira Ananda 👋</figure>
-      <p className="text-sm leading-relaxed text-zinc-400">
+      <p className={`text-sm leading-relaxed ${colorText}`}>
         <span className="font-semibold">Junior Full-Stack Developer </span> yang
         fokus membangun aplikasi web modern dengan UI konsisten dan integrasi
         sistem yang efisien. Berpengalaman mengerjakan project web nyata secara
@@ -79,7 +83,7 @@ function AccordionItemContent() {
         ,{" "}
         <span
           className="inline-flex items-center gap-2 pr-1.5 pl-2 rounded-full 
-                   border border-gray-500/60 bg-gray-500/10 
+                   border border-gray-600/60 bg-gray-600/10 
                    text-gray-400 font-medium"
         >
           <TbBrandNextjs size={12} />
