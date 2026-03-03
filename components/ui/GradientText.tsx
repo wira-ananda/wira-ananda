@@ -118,11 +118,11 @@ export default function GradientText({
     >
       {showBorder && (
         <motion.div
-          className="absolute inset-0 z-0 pointer-events-none rounded-[1.25rem]"
+          className="absolute inset-0 z-0 pointer-events-none rounded-4xl"
           style={{ ...gradientStyle, backgroundPosition }}
         >
           <div
-            className="absolute bg-black rounded-[1.25rem] z-[-1]"
+            className="absolute bg-black rounded-4xl z-[-1]"
             style={{
               width: "calc(100% - 2px)",
               height: "calc(100% - 2px)",
