@@ -21,8 +21,6 @@ import wiraLogoDark from "../public/img/wira-dark.svg";
 import wiraLogoLight from "../public/img/wira-light.svg";
 
 export default function Navbar() {
-  // const pathname = usePathname();
-  // const isHome = pathname === "/";
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {

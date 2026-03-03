@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import { useEffect, useState } from "react";
 import { contentWidth, EmptySection } from "./HomePage";
 import Image from "next/image";
 import { CiLocationArrow1 } from "react-icons/ci";
@@ -8,6 +8,15 @@ import { useTheme } from "next-themes";
 
 export default function Contact() {
   const { theme } = useTheme();
+  const [repoCount, setRepoCount] = useState<any | null>(null);
+
+  useEffect(() => {
+    fetch("/api/github/wira-ananda")
+      .then((res) => res.json())
+      .then((data) => setRepoCount(data.repoCount))
+      .catch(console.error);
+  }, []);
+
   return (
     <section className={` `}>
       <div
@@ -17,7 +26,7 @@ export default function Contact() {
           imageSrc="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg"
           imageAlt="Instagram Wira Ananda"
           title="wiraanandaa_"
-          subtitle="1.000 followers"
+          subtitle="1.000+ followers"
           rightIcon={<CiLocationArrow1 size={20} />}
           className="md:border-r border-b  hover:text-red-400 transition-all duration-300"
           link="https://www.instagram.com/wiraanandaa_/"
@@ -26,7 +35,7 @@ export default function Contact() {
           imageSrc="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png"
           imageAlt="LinkedIn Wira Ananda"
           title="wira-ananda"
-          subtitle="1.000 followers"
+          subtitle="500+ connections"
           rightIcon={<CiLocationArrow1 size={20} />}
           className="md:border-l border-b md:border-t-0 border-t hover:text-blue-400 transition-all duration-300"
           link="https://www.linkedin.com/in/wira-ananda/"
@@ -35,10 +44,10 @@ export default function Contact() {
           imageSrc="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png"
           imageAlt="Github Wira Ananda"
           title="wira-ananda"
-          subtitle="1.000 followers"
+          subtitle={`${repoCount} repositories`}
           rightIcon={<CiLocationArrow1 size={20} />}
-          className={`border-t border-b md:border-b-0 md:border-r hover:text-gray-500 transition-all duration-300"
-          link="https://github.com/wira-ananda`}
+          className={`border-t border-b md:border-b-0 md:border-r hover:text-gray-500 transition-all duration-300`}
+          link="https://github.com/wira-ananda"
         />
         <ContactItem
           imageSrc="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png"

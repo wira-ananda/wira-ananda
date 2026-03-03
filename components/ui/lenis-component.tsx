@@ -8,7 +8,7 @@ export default function LenisScroll() {
     const lenis = new Lenis();
 
     lenis.on("scroll", (e: any) => {
-      console.log(e);
+      // console.log(e);
     });
 
     function ref(time: number) {
