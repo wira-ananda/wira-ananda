@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "next-themes";
 import LenisScroll from "@/components/ui/lenis-component";
+import { Poppins } from "next/font/google";
 
 export const metadata: Metadata = {
   title: "Wira Ananda - Web Developer",
@@ -10,13 +11,18 @@ export const metadata: Metadata = {
     "Web Developer yang fokus membangun aplikasi web modern dengan UI konsisten, struktur semantik yang baik, serta performa dan integrasi sistem yang efisien.",
 };
 
+const poppins = Poppins({
+  weight: "500",
+  subsets: ["latin"],
+});
+
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" className={poppins.className} suppressHydrationWarning>
       <head>
         <link
           href="https://fonts.googleapis.com/css2?family=Cascadia+Mono:ital,wght@0,200..700;1,200..700&display=swap"

@@ -16,10 +16,11 @@ import {
   CommandList,
   CommandSeparator,
 } from "@/components/ui/command";
+import { contentWidth } from "./HomePage";
 
 export default function Navbar() {
-  const pathname = usePathname();
-  const isHome = pathname === "/";
+  // const pathname = usePathname();
+  // const isHome = pathname === "/";
 
   const { theme, setTheme } = useTheme();
   const [showCommandCard, setShowCommandCard] = useState(false);
@@ -37,7 +38,7 @@ export default function Navbar() {
     <nav className={`border-b`}>
       <div className="h-2 mx-auto border-b"></div>
       <div
-        className={`md:w-[50%] w-[95%] mx-auto border-l border-r flex gap-1 justify-end`}
+        className={`${contentWidth} mx-auto border-l border-r flex gap-1 justify-end`}
         suppressHydrationWarning={true}
       >
         <div className="flex m-2 gap-2">

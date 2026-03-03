@@ -4,6 +4,9 @@ import Image from "next/image";
 import Hero from "@/components/hero";
 import { useTheme } from "next-themes";
 import Navbar from "@/components/nav";
+import Opening from "./Opening";
+
+export const contentWidth = "md:w-[55%] w-[95%]";
 
 export default function HomePage() {
   const { theme, setTheme } = useTheme();
@@ -19,8 +22,11 @@ export default function HomePage() {
 
   return (
     <div className={`${theme}`}>
-      <Navbar />
-      <Hero />
+      {/* <Opening /> */}
+      <>
+        <Navbar />
+        <Hero />
+      </>
     </div>
   );
 }

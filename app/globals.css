@@ -14,13 +14,13 @@ button.dark:hover {
 }
 
 .light {
-  background-color: #f5ecec;
+  background-color: #ffffffea;
   color: #161616;
 }
 
 .dark {
   background-color: #161616;
-  color: #f5ecec;
+  color: #ffffffea;
   --background: oklch(0.145 0 0);
   --foreground: oklch(0.985 0 0);
   --card: oklch(0.205 0 0);
@@ -167,15 +167,16 @@ button.dark:hover {
 }
 
 .card-nav {
-  background-color: #fff;
+  background-color: #ffffffea;
   color: #111;
 }
 html.dark .card-nav {
   background-color: #020005;
-  color: #fff;
+  color: #ffffffea;
 }
+
 .card-nav.open {
-  background-color: #fff;
+  background-color: #ffffffea;
 }
 html.dark .card-nav.open {
   background-color: #020005;
@@ -365,4 +366,20 @@ html.dark .card-nav.open {
   .nav-card-link {
     font-size: 15px;
   }
+}
+
+.gradient-text {
+  display: inline-block;
+  background: linear-gradient(80deg, #2a9d8f 40%, #020005 60%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+html.dark .gradient-text {
+  display: inline-block;
+  background: linear-gradient(80deg, #2a9d8f 40%, #fff 60%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
