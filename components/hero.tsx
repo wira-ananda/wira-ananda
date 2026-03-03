@@ -9,9 +9,15 @@ import {
   HoverCardTrigger,
 } from "@/components/ui/hover-card";
 import { useTheme } from "next-themes";
+import GradientText from "./ui/GradientText";
 
 export default function Hero() {
   const { theme } = useTheme();
+  const colorsGradient =
+    theme === "dark"
+      ? ["#2a9d8f", "#9ef0e6", "#ffffff"]
+      : ["#2a9d8f", "#2b7d77", "#000000"];
+
   return (
     <header className="border-b">
       <div className={`${contentWidth} mx-auto border-l border-r flex`}>
@@ -27,9 +33,15 @@ export default function Hero() {
         <div className="flex items-end w-full">
           <span className="w-full border-t">
             <div className="border-b flex items-center">
-              <h1 className="ml-3 mr-1 my-1 text-4xl gradient-text font-bold">
+              <GradientText
+                colors={colorsGradient}
+                animationSpeed={1.5}
+                showBorder={false}
+                pauseOnHover={true}
+                className="ml-3 mr-1 my-1 text-4xl gradient-text font-bold"
+              >
                 Wira Ananda
-              </h1>
+              </GradientText>
               <HoverCard openDelay={10} closeDelay={100}>
                 <HoverCardTrigger asChild>
                   <RiVerifiedBadgeFill
@@ -42,10 +54,10 @@ export default function Hero() {
                   className={`flex w-64 flex-col gap-0.5 ${theme} `}
                 >
                   {/* <div className="font-semibold">verified</div> */}
-                  <div>
+                  <p>
                     Junior Web Developer dengan fokus pada UI, performa, dan
                     pengalaman pengguna.
-                  </div>
+                  </p>
                   {/* <div className="mt-1 text-xs text-muted-foreground">
                     Joined December 202
                   </div> */}
@@ -53,14 +65,16 @@ export default function Hero() {
               </HoverCard>
             </div>
             <div className="mx-3">
-              <Typewriter
-                options={{
-                  autoStart: true,
-                  loop: true,
-                  delay: 50,
-                  strings: ["Web Developer", "Graphic Designer"],
-                }}
-              />
+              <h2>
+                <Typewriter
+                  options={{
+                    autoStart: true,
+                    loop: true,
+                    delay: 50,
+                    strings: ["Web Developer", "Graphic Designer"],
+                  }}
+                />
+              </h2>
             </div>
           </span>
         </div>

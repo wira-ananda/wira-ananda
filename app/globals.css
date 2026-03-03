@@ -367,19 +367,3 @@ html.dark .card-nav.open {
     font-size: 15px;
   }
 }
-
-.gradient-text {
-  display: inline-block;
-  background: linear-gradient(80deg, #2a9d8f 40%, #020005 60%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-}
-
-html.dark .gradient-text {
-  display: inline-block;
-  background: linear-gradient(80deg, #2a9d8f 40%, #fff 60%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-}
