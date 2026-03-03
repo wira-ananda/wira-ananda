@@ -46,7 +46,7 @@ export default function Hero() {
                 <HoverCard openDelay={10} closeDelay={100}>
                   <HoverCardTrigger asChild>
                     <RiVerifiedBadgeFill
-                      size={20}
+                      size={22}
                       className="text-blue-400 cursor-pointer md:block hidden"
                     />
                   </HoverCardTrigger>

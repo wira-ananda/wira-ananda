@@ -11,7 +11,7 @@ import {
   AccordionHeader,
   AccordionItem,
   AccordionTrigger,
-  useAccordionItem, // Menggunakan useAccordionItem di dalam AccordionItem
+  useAccordionItem,
 } from "./ui/accordion";
 import { ChevronDownIcon, ChevronUpIcon } from "lucide-react";
 import { useTheme } from "next-themes";

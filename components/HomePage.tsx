@@ -6,6 +6,7 @@ import { useTheme } from "next-themes";
 import Navbar from "@/components/nav";
 import Opening from "./Opening";
 import About from "./about";
+import Contact from "./contact";
 
 export default function HomePage() {
   const { theme } = useTheme();
@@ -26,6 +27,7 @@ export default function HomePage() {
         <Navbar />
         <Hero />
         <About />
+        <Contact />
       </>
     </div>
   );
@@ -37,8 +39,8 @@ export function EmptySection() {
   const { theme } = useTheme();
   const colorStripes =
     theme === "dark"
-      ? `rgba(255,255,255,0.08),
-        rgba(255,255,255,0.08) 0.8px,
+      ? `rgba(255,255,255,0.15),
+        rgba(255,255,255,0.125) 0.8px,
         transparent 0.5px,
         transparent 10px`
       : `rgba(0,0,0,0.1),
@@ -47,7 +49,7 @@ export function EmptySection() {
         transparent 10px`;
   return (
     <div
-      className={`border-y grid md:grid-cols-[22.5%_55%_22.5%] grid-cols-[2.5%_95%_2.5%] h-9 ${
+      className={`border-y grid md:grid-cols-[22.5%_55%_22.5%] grid-cols-[2.5%_95%_2.5%] h-6 md:h-9 ${
         theme === "dark" ? "dark-empty-section" : "light-empty-section"
       }`}
       style={{

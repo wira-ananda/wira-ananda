@@ -1,0 +1,76 @@
+import Image from "next/image";
+import { ReactNode } from "react";
+
+type HoverImageItemProps = {
+  imageSrc: string;
+  imageAlt?: string;
+  title: string;
+  subtitle?: string;
+  rightIcon?: ReactNode;
+  imageSize?: number;
+  className?: string;
+};
+
+export default function ContactItem({
+  imageSrc,
+  imageAlt = "",
+  title,
+  subtitle,
+  rightIcon,
+  imageSize = 40,
+  className,
+}: HoverImageItemProps) {
+  return (
+    <span
+      className={`
+        group
+        h-20
+        flex
+        items-center
+        justify-between
+        px-4
+        cursor-pointer
+        ${className}
+      `}
+    >
+      <div className="flex items-center gap-4">
+        <Image
+          src={imageSrc}
+          width={imageSize * 10}
+          height={imageSize * 10}
+          alt={imageAlt}
+          className="
+            grayscale
+            opacity-70
+            transition-all
+            duration-300
+            group-hover:grayscale-0
+            group-hover:opacity-100
+            group-hover:scale-105
+            rounded-xl
+          "
+          style={{ width: imageSize, height: imageSize }}
+        />
+
+        <div className="leading-normal text-[.8rem]">
+          <h3 className="font-semibold">{title}</h3>
+          {subtitle && (
+            <h3 className="font-thin text-muted-foreground">{subtitle}</h3>
+          )}
+        </div>
+      </div>
+
+      {rightIcon && (
+        <div
+          className="
+            transition
+            duration-300
+            group-hover:translate-x-1
+          "
+        >
+          {rightIcon}
+        </div>
+      )}
+    </span>
+  );
+}
