@@ -5,6 +5,7 @@ import Hero from "@/components/hero";
 import { useTheme } from "next-themes";
 import Navbar from "@/components/nav";
 import Opening from "./Opening";
+import About from "./about";
 
 export default function HomePage() {
   const { theme } = useTheme();
@@ -24,6 +25,7 @@ export default function HomePage() {
       <>
         <Navbar />
         <Hero />
+        <About />
       </>
     </div>
   );

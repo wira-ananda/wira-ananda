@@ -39,7 +39,7 @@ export default function Hero() {
                   animationSpeed={1.5}
                   showBorder={false}
                   pauseOnHover={true}
-                  className="ml-3 mr-1 my-1 text-4xl gradient-text font-bold"
+                  className="ml-3 mr-1 my-1 text-4xl gradient-text font-black"
                 >
                   Wira Ananda
                 </GradientText>
