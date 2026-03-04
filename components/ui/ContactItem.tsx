@@ -1,12 +1,12 @@
 import Image from "next/image";
 import { ReactNode } from "react";
+import { CiLocationArrow1 } from "react-icons/ci";
 
 type HoverImageItemProps = {
   imageSrc: string;
   imageAlt?: string;
   title: string;
   subtitle?: string;
-  rightIcon?: ReactNode;
   imageSize?: number;
   className?: string;
   link?: string;
@@ -17,7 +17,6 @@ export default function ContactItem({
   imageAlt = "",
   title,
   subtitle,
-  rightIcon,
   imageSize = 40,
   className,
   link,
@@ -63,17 +62,15 @@ export default function ContactItem({
         </div>
       </div>
 
-      {rightIcon && (
-        <div
-          className="
+      <div
+        className="
             transition
             duration-300
             group-hover:translate-x-1
           "
-        >
-          {rightIcon}
-        </div>
-      )}
+      >
+        <CiLocationArrow1 size={20} />
+      </div>
     </a>
   );
 }

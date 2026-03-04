@@ -2,7 +2,6 @@
 import { useEffect, useState } from "react";
 import { contentWidth, EmptySection } from "./HomePage";
 import Image from "next/image";
-import { CiLocationArrow1 } from "react-icons/ci";
 import ContactItem from "./ui/ContactItem";
 import { useTheme } from "next-themes";
 
@@ -27,7 +26,6 @@ export default function Contact() {
           imageAlt="Instagram Wira Ananda"
           title="wiraanandaa_"
           subtitle="1.000+ followers"
-          rightIcon={<CiLocationArrow1 size={20} />}
           className="md:border-r border-b  hover:text-red-400 transition-all duration-300"
           link="https://www.instagram.com/wiraanandaa_/"
         />
@@ -36,7 +34,6 @@ export default function Contact() {
           imageAlt="LinkedIn Wira Ananda"
           title="wira-ananda"
           subtitle="500+ connections"
-          rightIcon={<CiLocationArrow1 size={20} />}
           className="md:border-l border-b md:border-t-0 border-t hover:text-blue-400 transition-all duration-300"
           link="https://www.linkedin.com/in/wira-ananda/"
         />
@@ -45,7 +42,6 @@ export default function Contact() {
           imageAlt="Github Wira Ananda"
           title="wira-ananda"
           subtitle={`${repoCount} repositories`}
-          rightIcon={<CiLocationArrow1 size={20} />}
           className={`border-t border-b md:border-b-0 md:border-r hover:text-gray-500 transition-all duration-300`}
           link="https://github.com/wira-ananda"
         />
@@ -54,7 +50,6 @@ export default function Contact() {
           imageAlt="Email Wira Ananda"
           title="ur.wiraananda@gmail.com"
           subtitle="Contact via Email"
-          rightIcon={<CiLocationArrow1 size={20} />}
           className="border-t md:border-l hover:text-red-400 transition-all duration-300"
           link="mailto:ur.wiraananda@gmail.com?subject=Software%20Developer%20Inquiry&body=Halo%20Wira👋,%0ASaya%20melihat%20portfolio%20Anda..."
         />
