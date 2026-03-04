@@ -7,7 +7,8 @@
     "icon": "FaChartBar",
     "projectLink": "",
     "projectDesc": "Human Resources System berbasis web yang memudahkan pengelolaan data karyawan, kehadiran, cuti, dan reimburse secara terpusat dan efisien.",
-    "techStack": ["Next.js", "TanStack Query", "Tailwind"]
+    "techStack": ["Next.js", "TanStack Query", "Tailwind"],
+    "projectImage": ["/img/project1-1.png", "/img/project1-2.png"]
   },
   {
     "id": "project-2",
@@ -24,6 +25,12 @@
       "Ant Design",
       "OAuth",
       "Docker"
+    ],
+    "projectImage": [
+      "/img/project2-1.png",
+      "/img/project2-2.png",
+      "/img/project2-3.png",
+      "/img/project2-4.png"
     ]
   },
   {
@@ -34,11 +41,12 @@
     "icon": "FaTasks",
     "projectLink": "https://github.com/taskify-id/task-manager",
     "projectDesc": "Aplikasi berbasis web yang memudahkan perencanaan, pengelolaan, dan pemantauan tugas secara terstruktur.",
-    "techStack": ["React.js", "Laravel", "Inertia", "MySQL", "JWT", "Docker"]
+    "techStack": ["React.js", "Laravel", "Inertia", "MySQL", "JWT", "Docker"],
+    "projectImage": ["/img/project3-1.png"]
   },
   {
     "id": "project-4",
-    "title": "Web Community Profile - Web & SEO Developing",
+    "title": "Community Profile - Web & SEO Developing",
     "month": "Nov 2024",
     "warnaLogo": "bg-linear-to-br from-yellow-900 to-yellow-300",
     "iconLink": "https://abbscout.vercel.app/img/abbLogo.png",
@@ -51,7 +59,8 @@
       "Axios",
       "Medium API",
       "Google PageSpeed"
-    ]
+    ],
+    "projectImage": ["/img/project4-1.png"]
   },
   {
     "id": "project-5",
@@ -71,6 +80,13 @@
     "icon": "MdLocalMovies",
     "projectLink": "",
     "projectDesc": "Proyek ini adalah desain UI/UX untuk platform web streaming, yang bertujuan untuk menciptakan antarmuka pengguna yang responsif dan intuitif, meningkatkan kenyamanan pengguna dalam menavigasi konten dan menikmati pengalaman menonton yang lancar.",
-    "techStack": ["Responsif", "Aksesibilitas", "Estetika"]
+    "techStack": ["Responsif", "Aksesibilitas", "Estetika"],
+    "projectImage": [
+      "/img/project6-1.png",
+      "/img/project6-2.png",
+      "/img/project6-3.png",
+      "/img/project6-4.png",
+      "/img/project6-5.png"
+    ]
   }
 ]

@@ -1,13 +1,20 @@
 import React from "react";
 import { contentWidth, EmptySection } from "./HomePage";
 import Image from "next/image";
+import dataProjects from "@/data/dataProject.json";
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
 } from "./ui/accordion-projects";
-import dataProjects from "@/data/dataProject.json";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
 
 import { FaChartBar } from "react-icons/fa";
 import { VscEye } from "react-icons/vsc";
@@ -85,13 +92,41 @@ const ProjectList = ({
 const ProjectDetail = ({
   projectDesc,
   techStack,
+  projectImage,
 }: {
   projectDesc: string;
   techStack: string[];
+  projectImage?: string[];
 }) => {
   return (
     <AccordionContent className="group p-4 items-center w-full grid grid-cols-1 gap-3">
-      <figure className="w-full border h-50"></figure>
+      {projectImage && (
+        <figure className="w-full border">
+          <Carousel className="relative">
+            {projectImage.length >= 2 && (
+              <>
+                <CarouselPrevious className="absolute left-3 z-20 shadow" />
+                <CarouselNext className="absolute right-3 z-20 shadow" />
+              </>
+            )}
+
+            <CarouselContent>
+              {projectImage?.map((img, index) => (
+                <CarouselItem key={index}>
+                  <div className="relative mx-auto w-full aspect-[16/9]">
+                    <Image
+                      src={img}
+                      alt={`Project image ${index + 1}`}
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+          </Carousel>
+        </figure>
+      )}
       <p>{projectDesc}</p>
       <div className="font-medium gap-2 flex flex-wrap max-w-full">
         {techStack.map((tech, index) => (
@@ -128,6 +163,7 @@ export default function Projects() {
               <ProjectDetail
                 projectDesc={project.projectDesc}
                 techStack={project.techStack}
+                projectImage={project.projectImage}
               />
             </AccordionItem>
           ))}
