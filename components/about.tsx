@@ -12,7 +12,7 @@ import {
   AccordionItem,
   AccordionTrigger,
   useAccordionItem,
-} from "./ui/accordion";
+} from "./ui/accordion-about";
 import { ChevronDownIcon, ChevronUpIcon } from "lucide-react";
 import { useTheme } from "next-themes";
 

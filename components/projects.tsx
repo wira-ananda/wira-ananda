@@ -6,11 +6,11 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "./ui/accordion";
+} from "./ui/accordion-projects";
 import dataProjects from "@/data/dataProject.json";
 
 import { FaChartBar } from "react-icons/fa";
-import { LuGithub } from "react-icons/lu";
+import { VscEye } from "react-icons/vsc";
 import { HiOutlineInformationCircle } from "react-icons/hi2";
 import { LiaSchoolSolid } from "react-icons/lia";
 import { FaTasks } from "react-icons/fa";
@@ -41,7 +41,7 @@ const ProjectList = ({
   const Icon = iconName ? iconMap[iconName] : null;
   return (
     <div
-      className={`group flex justify-between p-4 items-center border-y w-full transition-all duration-300`}
+      className={`group flex justify-between p-4.5 items-center border-y w-full transition-all duration-300`}
     >
       <div className="flex gap-5 items-center">
         <span
@@ -69,7 +69,7 @@ const ProjectList = ({
             href={projectLink}
             className="hover:text-blue-500 transition-all duration-300"
           >
-            <LuGithub size={23} />
+            <VscEye size={23} />
           </a>
         )}
         <AccordionTrigger>

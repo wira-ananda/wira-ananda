@@ -6,7 +6,7 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "./ui/accordion";
+} from "./ui/accordion-about";
 import dataProjects from "@/data/dataProject.json";
 import { IconType } from "react-icons/lib";
 

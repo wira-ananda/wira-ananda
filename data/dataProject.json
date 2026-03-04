@@ -42,7 +42,7 @@
     "month": "Nov 2024",
     "warnaLogo": "bg-linear-to-br from-yellow-900 to-yellow-300",
     "iconLink": "https://abbscout.vercel.app/img/abbLogo.png",
-    "projectLink": "",
+    "projectLink": "https://abbscout.vercel.app/",
     "projectDesc": "Website profil Ambalan Abbulosibatang (Pramuka SMAN 1 Gowa) yang dikembangkan untuk menyediakan informasi, publikasi artikel.",
     "techStack": [
       "Next.js",
