@@ -42,8 +42,8 @@ export default function ContactItem({
           height={imageSize * 10}
           alt={imageAlt}
           className="
-            grayscale
-            opacity-70
+            md:grayscale
+            md:opacity-70
             transition-all
             duration-300
             group-hover:grayscale-0
