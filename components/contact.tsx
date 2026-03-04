@@ -41,7 +41,7 @@ export default function Contact() {
           imageSrc="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png"
           imageAlt="Github Wira Ananda"
           title="wira-ananda"
-          subtitle={`${repoCount} repositories`}
+          subtitle={`${repoCount != undefined ? repoCount : "50+"} repositories`}
           className={`border-t border-b md:border-b-0 md:border-r hover:text-gray-500 transition-all duration-300`}
           link="https://github.com/wira-ananda"
         />
