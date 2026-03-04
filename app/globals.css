@@ -14,11 +14,11 @@ button.dark:hover {
 }
 
 .light-empty-section {
-  background-color: #fcfcfcea;
+  background-color: rgba(251, 253, 255, 0.918);
 }
 
 .dark-empty-section {
-  background-color: #01000ae0;
+  background-color: rgb(1, 11, 20);
 }
 
 .light {

@@ -41,12 +41,12 @@ export function EmptySection() {
   const { theme } = useTheme();
   const colorStripes =
     theme === "dark"
-      ? `rgba(255,255,255,0.15),
-        rgba(255,255,255,0.125) 0.8px,
+      ? `rgba(255,255,255,0.05),
+        rgba(255,255,255,0.05) 0.8px,
         transparent 0.5px,
-        transparent 10px`
-      : `rgba(0,0,0,0.1),
-        rgba(0,0,0,0.1) 0.8px,
+        transparent 15px`
+      : `rgba(0,0,0,0.05),
+        rgba(0,0,0,0.05) 0.8px,
         transparent 0.5px,
         transparent 10px`;
   return (
