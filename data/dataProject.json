@@ -1,0 +1,76 @@
+[
+  {
+    "id": "project-1",
+    "title": "HR System - Frontend Developing",
+    "month": "Apr 2025",
+    "warnaLogo": "bg-linear-to-br from-red-400 to-red-800",
+    "icon": "FaChartBar",
+    "projectLink": "",
+    "projectDesc": "Human Resources System berbasis web yang memudahkan pengelolaan data karyawan, kehadiran, cuti, dan reimburse secara terpusat dan efisien.",
+    "techStack": ["Next.js", "TanStack Query", "Tailwind"]
+  },
+  {
+    "id": "project-2",
+    "title": "Tryout System - Frontend Developing",
+    "month": "Jan 2025",
+    "warnaLogo": "bg-linear-to-br from-blue-400 to-blue-800",
+    "icon": "LiaSchoolSolid",
+    "projectLink": "",
+    "projectDesc": "System platform ujian online yang menyederhanakan proses penyelenggaraan tryout dengan manajemen soal, penilaian otomatis, serta pembaruan data real-time.",
+    "techStack": [
+      "Next.js",
+      "TanStack Query",
+      "Tailwind",
+      "Ant Design",
+      "OAuth",
+      "Docker"
+    ]
+  },
+  {
+    "id": "project-3",
+    "title": "Task Manager System - Full-Stack Developing",
+    "month": "Mei 2025",
+    "warnaLogo": "bg-linear-to-br from-gray-400 to-gray-800",
+    "icon": "FaTasks",
+    "projectLink": "https://github.com/taskify-id/task-manager",
+    "projectDesc": "Aplikasi berbasis web yang memudahkan perencanaan, pengelolaan, dan pemantauan tugas secara terstruktur.",
+    "techStack": ["React.js", "Laravel", "Inertia", "MySQL", "JWT", "Docker"]
+  },
+  {
+    "id": "project-4",
+    "title": "Web Community Profile - Web & SEO Developing",
+    "month": "Nov 2024",
+    "warnaLogo": "bg-linear-to-br from-yellow-900 to-yellow-300",
+    "iconLink": "https://abbscout.vercel.app/img/abbLogo.png",
+    "projectLink": "",
+    "projectDesc": "Website profil Ambalan Abbulosibatang (Pramuka SMAN 1 Gowa) yang dikembangkan untuk menyediakan informasi, publikasi artikel.",
+    "techStack": [
+      "Next.js",
+      "Tailwind",
+      "Express.js",
+      "Axios",
+      "Medium API",
+      "Google PageSpeed"
+    ]
+  },
+  {
+    "id": "project-5",
+    "title": "API Task Manager v2 - Backend Developing",
+    "month": "Jun 2025",
+    "warnaLogo": "bg-linear-to-br from-gray-400 to-gray-100",
+    "iconLink": "https://img.icons8.com/?size=100&id=Ov4kJCn8JtAH&format=png&color=000000",
+    "projectLink": "",
+    "projectDesc": "Api task-manager-api-v2 menggunakan MongoDB untuk penyimpanan data yang fleksibel dan skalabel.",
+    "techStack": ["Node.js", "Express", "NoSQL (MongoDB)", "JWT", "bcrypt.js"]
+  },
+  {
+    "id": "project-6",
+    "title": "WatchNow - UI/UX Design",
+    "month": "Apr 2023",
+    "warnaLogo": "bg-linear-to-br from-orange-600 via-teal-900 to-cyan-500",
+    "icon": "MdLocalMovies",
+    "projectLink": "",
+    "projectDesc": "Proyek ini adalah desain UI/UX untuk platform web streaming, yang bertujuan untuk menciptakan antarmuka pengguna yang responsif dan intuitif, meningkatkan kenyamanan pengguna dalam menavigasi konten dan menikmati pengalaman menonton yang lancar.",
+    "techStack": ["Responsif", "Aksesibilitas", "Estetika"]
+  }
+]

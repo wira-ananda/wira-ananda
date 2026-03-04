@@ -8,6 +8,7 @@ import {
   AccordionTrigger,
 } from "./ui/accordion";
 import dataProjects from "@/data/dataProject.json";
+import { IconType } from "react-icons/lib";
 
 import { FaChartBar } from "react-icons/fa";
 import { LuGithub } from "react-icons/lu";
