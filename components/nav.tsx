@@ -118,7 +118,7 @@ export default function Navbar() {
         onOpenChange={setShowCommandCard}
         className={`${theme}`}
       >
-        <Command className={`max-w-sm rounded-lg border`}>
+        <Command className={`rounded-lg border`}>
           <CommandInput placeholder="Type a command or search..." />
           <CommandList>
             <CommandEmpty>No results found.</CommandEmpty>
