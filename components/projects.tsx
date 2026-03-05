@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { contentWidth, EmptySection } from "./HomePage";
 import Image from "next/image";
@@ -22,12 +23,14 @@ import { HiOutlineInformationCircle } from "react-icons/hi2";
 import { LiaSchoolSolid } from "react-icons/lia";
 import { FaTasks } from "react-icons/fa";
 import { MdLocalMovies } from "react-icons/md";
+import { BsPersonCircle } from "react-icons/bs";
 
 const iconMap: Record<string, React.ComponentType<any>> = {
   FaChartBar: FaChartBar,
   FaTasks: FaTasks,
   LiaSchoolSolid: LiaSchoolSolid,
   MdLocalMovies: MdLocalMovies,
+  BsPersonCircle: BsPersonCircle,
 };
 
 const ProjectList = ({
@@ -113,7 +116,7 @@ const ProjectDetail = ({
             <CarouselContent>
               {projectImage?.map((img, index) => (
                 <CarouselItem key={index}>
-                  <div className="relative mx-auto w-full aspect-[16/9]">
+                  <div className="relative mx-auto w-full aspect-video">
                     <Image
                       src={img}
                       alt={`Project image ${index + 1}`}

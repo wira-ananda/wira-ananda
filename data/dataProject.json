@@ -88,5 +88,20 @@
       "/img/project6-4.png",
       "/img/project6-5.png"
     ]
+  },
+  {
+    "id": "project-7",
+    "title": "Personal Website v1 & v2",
+    "month": "Apr 2023",
+    "warnaLogo": "bg-linear-to-br from-black via-teal-700 to-cyan-500",
+    "icon": "BsPersonCircle",
+    "projectLink": "",
+    "projectDesc": "Website portofolio dibangun dengan React + Framer Motion, menampilkan kemampuan desain dan frontend.",
+    "techStack": ["React.js", "Framer Motion", "Tailwind CSS"],
+    "projectImage": [
+      "/img/project7-1.png",
+      "/img/project7-2.png",
+      "/img/project7-3.png"
+    ]
   }
 ]
