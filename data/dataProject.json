@@ -68,7 +68,7 @@
     "month": "Jun 2025",
     "warnaLogo": "bg-linear-to-br from-gray-400 to-gray-100",
     "iconLink": "https://img.icons8.com/?size=100&id=Ov4kJCn8JtAH&format=png&color=000000",
-    "projectLink": "",
+    "projectLink": "https://github.com/taskify-id/task-manager-api-v2",
     "projectDesc": "Api task-manager-api-v2 menggunakan MongoDB untuk penyimpanan data yang fleksibel dan skalabel.",
     "techStack": ["Node.js", "Express", "NoSQL (MongoDB)", "JWT", "bcrypt.js"]
   },

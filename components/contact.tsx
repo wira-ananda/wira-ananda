@@ -1,58 +1,108 @@
-"use client";
 import { useEffect, useState } from "react";
 import { contentWidth, EmptySection } from "./HomePage";
-import Image from "next/image";
 import ContactItem from "./ui/ContactItem";
-import { useTheme } from "next-themes";
+import dataContact from "@/data/dataContact.json";
+import {
+  HoverCard,
+  HoverCardTrigger,
+  HoverCardContent,
+} from "@/components/ui/hover-card-ui";
 
-export default function Contact() {
-  const { theme } = useTheme();
-  const [repoCount, setRepoCount] = useState<any | null>(null);
+interface RadixHoverCardProps {
+  side?: "top" | "bottom" | "left" | "right";
+  sideOffset?: number;
+  align?: "start" | "center" | "end";
+  alignOffset?: number;
+  followCursor?: boolean | "x" | "y";
+}
+
+interface GithubResponse {
+  repoCount: number;
+  joinedYears: number;
+  totalContributions: number;
+}
+
+export default function Contact({
+  side,
+  sideOffset,
+  align,
+  alignOffset,
+  followCursor,
+}: RadixHoverCardProps) {
+  const [statsGithub, setStatsGithub] = useState<GithubResponse | null>(null);
 
   useEffect(() => {
-    fetch("/api/github/wira-ananda")
+    fetch("/api/githubStats/wira-ananda")
       .then((res) => res.json())
-      .then((data) => setRepoCount(data.repoCount))
+      .then((data) => setStatsGithub(data))
       .catch(console.error);
   }, []);
 
+  const joinedYears = statsGithub?.joinedYears;
+  const totalContributions = statsGithub?.totalContributions;
+
   return (
-    <section className={` `}>
+    <section>
       <div
         className={`${contentWidth} mx-auto border-x text-sm grid grid-cols-1 md:grid-cols-2 gap-4`}
       >
-        <ContactItem
-          imageSrc="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg"
-          imageAlt="Instagram Wira Ananda"
-          title="wiraanandaa_"
-          subtitle="1.000+ followers"
-          className="md:border-r border-b  hover:text-red-400 transition-all duration-300"
-          link="https://www.instagram.com/wiraanandaa_/"
-        />
-        <ContactItem
-          imageSrc="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png"
-          imageAlt="LinkedIn Wira Ananda"
-          title="wira-ananda"
-          subtitle="500+ connections"
-          className="md:border-l border-b md:border-t-0 border-t hover:text-blue-400 transition-all duration-300"
-          link="https://www.linkedin.com/in/wira-ananda/"
-        />
-        <ContactItem
-          imageSrc="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png"
-          imageAlt="Github Wira Ananda"
-          title="wira-ananda"
-          subtitle={`${repoCount != undefined ? repoCount : "50+"} repositories`}
-          className={`border-t border-b md:border-b-0 md:border-r hover:text-gray-500 transition-all duration-300`}
-          link="https://github.com/wira-ananda"
-        />
-        <ContactItem
-          imageSrc="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png"
-          imageAlt="Email Wira Ananda"
-          title="ur.wiraananda@gmail.com"
-          subtitle="Contact via Email"
-          className="border-t md:border-l hover:text-red-400 transition-all duration-300"
-          link="mailto:ur.wiraananda@gmail.com?subject=Software%20Developer%20Inquiry&body=Halo%20Wira👋,%0ASaya%20melihat%20portfolio%20Anda..."
-        />
+        {dataContact.map((contact) => (
+          <HoverCard key={contact.id} followCursor>
+            <HoverCardTrigger asChild>
+              <div>
+                <ContactItem
+                  imageSrc={contact.imageSrc}
+                  imageAlt={contact.imageAlt}
+                  title={contact.title}
+                  subtitle={
+                    contact.id === "github"
+                      ? `50+ repositories`
+                      : contact.subtitle[0]
+                  }
+                  className={contact.className}
+                  link={contact.link}
+                />
+              </div>
+            </HoverCardTrigger>
+            <HoverCardContent
+              side={side}
+              sideOffset={sideOffset}
+              align={align}
+              alignOffset={alignOffset}
+              className={`w-80`}
+            >
+              <div className="flex flex-col gap-4">
+                <img
+                  className="size-16 rounded-full overflow-hidden border"
+                  src={
+                    contact.id === "email"
+                      ? "/img/wira-foto-profil2.jpg"
+                      : "/img/wira-foto-profil.jpg"
+                  }
+                  alt={contact.imageAlt}
+                />
+                <div className="flex flex-col gap-4">
+                  <div>
+                    <div className="font-bold">Wira Ananda</div>
+                    <div className="text-sm ">{contact.title}</div>
+                  </div>
+                  <div className="flex gap-4">
+                    <div className="flex gap-1 text-sm items-center">
+                      {contact.id === "github"
+                        ? `${totalContributions != null ? totalContributions : "600+"} contributions`
+                        : contact.subtitle[0]}
+                    </div>
+                    <div className="flex gap-1 text-sm items-center ">
+                      {contact.id === "github"
+                        ? `${joinedYears != null ? joinedYears : "3"} years on Github`
+                        : contact.subtitle[1]}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </HoverCardContent>
+          </HoverCard>
+        ))}
       </div>
       <EmptySection />
     </section>

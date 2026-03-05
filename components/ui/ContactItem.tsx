@@ -35,6 +35,7 @@ export default function ContactItem({
       `}
       href={link}
     >
+      {" "}
       <div className="flex items-center gap-4">
         <Image
           src={imageSrc}
@@ -53,7 +54,6 @@ export default function ContactItem({
           "
           style={{ width: imageSize, height: imageSize }}
         />
-
         <div className="leading-normal text-[.8rem]">
           <h3 className="font-semibold ">{title}</h3>
           {subtitle && (
@@ -61,7 +61,6 @@ export default function ContactItem({
           )}
         </div>
       </div>
-
       <div
         className="
             transition

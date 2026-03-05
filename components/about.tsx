@@ -45,14 +45,16 @@ function AccordionItemContent() {
     <article className="px-4 py-3 leading-relaxed gap-2 space-y-2 font-thin">
       <figure>Halo! Saya Wira Ananda 👋</figure>
       <p className={`text-sm leading-relaxed ${colorText}`}>
-        <span className="font-semibold">Junior Full-Stack Developer </span> yang
-        fokus membangun aplikasi web modern dengan UI konsisten dan integrasi
-        sistem yang efisien. Berpengalaman mengerjakan project web nyata secara
-        kolaboratif dan saat ini{" "}
+        <span className={`font-semibold ${theme}`}>
+          Junior Full-Stack Developer{" "}
+        </span>{" "}
+        yang fokus membangun aplikasi web modern dengan UI konsisten dan
+        integrasi sistem yang efisien. Berpengalaman mengerjakan project web
+        nyata secara kolaboratif dan saat ini{" "}
         <span
           className="inline-flex items-center gap-2 pr-1.5 pl-2 rounded-full 
                    border border-emerald-500/60 bg-emerald-500/10 
-                   text-emerald-400 font-medium"
+                   text-green-400 font-medium"
         >
           <span className="relative flex h-2.5 w-2.5">
             <span

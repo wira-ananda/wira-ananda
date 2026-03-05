@@ -25,11 +25,22 @@ export async function GET(
     if (!res.ok) {
       throw new Error("Failed to fetch GitHub user");
     }
+    const fullData = await res.json();
 
-    const data = await res.json();
-
+    console.log(fullData);
     return NextResponse.json({
-      repoCount: data.public_repos,
+      name: "Github User Data",
+      data: {
+        login: fullData.login,
+        name: fullData.name,
+        avatar_url: fullData.avatar_url,
+        bio: fullData.bio,
+        location: fullData.location,
+        company: fullData.company,
+        followers: fullData.followers,
+        following: fullData.following,
+        repoCount: fullData.repoCount,
+      },
     });
   } catch (error) {
     return NextResponse.json(

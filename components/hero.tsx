@@ -7,7 +7,7 @@ import {
   HoverCard,
   HoverCardContent,
   HoverCardTrigger,
-} from "@/components/ui/hover-card";
+} from "@/components/ui/hover-card-ui";
 import { useTheme } from "next-themes";
 import GradientText from "./ui/GradientText";
 
