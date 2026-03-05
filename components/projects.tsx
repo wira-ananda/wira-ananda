@@ -1,7 +1,8 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import { contentWidth, EmptySection } from "./HomePage";
 import Image from "next/image";
+import { useTheme } from "next-themes";
 import dataProjects from "@/data/dataProject.json";
 import {
   Accordion,
@@ -24,6 +25,8 @@ import { LiaSchoolSolid } from "react-icons/lia";
 import { FaTasks } from "react-icons/fa";
 import { MdLocalMovies } from "react-icons/md";
 import { BsPersonCircle } from "react-icons/bs";
+import { Button } from "./ui/button";
+import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 
 const iconMap: Record<string, React.ComponentType<any>> = {
   FaChartBar: FaChartBar,
@@ -146,6 +149,11 @@ const ProjectDetail = ({
 };
 
 export default function Projects() {
+  const { theme } = useTheme();
+  const [showAll, setShowAll] = useState(false);
+
+  const projectsToShow = showAll ? dataProjects : dataProjects.slice(0, 3);
+
   return (
     <section>
       <div className={`${contentWidth} mx-auto border-x text-sm`}>
@@ -153,7 +161,7 @@ export default function Projects() {
           <h1 className={`text-2xl font-semibold `}>Projects</h1>
         </div>
         <Accordion type="single" collapsible>
-          {dataProjects.map((project) => (
+          {projectsToShow.map((project) => (
             <AccordionItem key={project.id} value={project.id}>
               <ProjectList
                 title={project.title}
@@ -171,6 +179,16 @@ export default function Projects() {
             </AccordionItem>
           ))}
         </Accordion>
+        {dataProjects.length > 3 && (
+          <div className="flex justify-center">
+            <Button
+              className={`${theme} w-full px-4 border rounded hover:bg-gray-100 transition-all duration-300 cursor-pointer`}
+              onClick={() => setShowAll(!showAll)}
+            >
+              {showAll ? <IoIosArrowDown /> : <IoIosArrowUp />}
+            </Button>
+          </div>
+        )}
       </div>
       <EmptySection />
     </section>
