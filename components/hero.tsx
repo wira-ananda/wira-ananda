@@ -52,7 +52,7 @@ export default function Hero() {
                   </HoverCardTrigger>
                   <HoverCardContent
                     side="right"
-                    className={`flex w-64 gap-0.5 ${theme} `}
+                    className={`flex w-64 gap-0.5 text-sm `}
                   >
                     <span>🎯</span>
                     <p>
