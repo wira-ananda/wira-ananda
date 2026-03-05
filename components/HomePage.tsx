@@ -8,6 +8,7 @@ import Opening from "./Opening";
 import About from "./about";
 import Contact from "./contact";
 import Projects from "./projects";
+import Journey from "./journey";
 
 export default function HomePage() {
   const { theme } = useTheme();
@@ -30,6 +31,7 @@ export default function HomePage() {
         <About />
         <Contact />
         <Projects />
+        <Journey />
       </>
     </div>
   );

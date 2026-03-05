@@ -157,9 +157,16 @@ export default function Projects() {
   return (
     <section>
       <div className={`${contentWidth} mx-auto border-x text-sm`}>
-        <div className={`flex justify-between items-center w-full px-4`}>
-          <h1 className={`text-2xl font-semibold `}>Projects</h1>
-        </div>
+        <h1
+          className={`flex items-center w-full px-4 py-1.5 gap-2 text-2xl font-semibold`}
+        >
+          Projects
+        </h1>
+        <h2
+          className={`items-center text-muted-foreground px-4 border-t py-0.5`}
+        >
+          What I build, what I’m proud of.
+        </h2>
         <Accordion type="single" collapsible>
           {projectsToShow.map((project) => (
             <AccordionItem key={project.id} value={project.id}>
