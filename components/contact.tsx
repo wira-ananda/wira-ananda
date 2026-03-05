@@ -7,6 +7,7 @@ import {
   HoverCardTrigger,
   HoverCardContent,
 } from "@/components/ui/hover-card-ui";
+import { RiVerifiedBadgeFill } from "react-icons/ri";
 
 interface RadixHoverCardProps {
   side?: "top" | "bottom" | "left" | "right";
@@ -83,9 +84,18 @@ export default function Contact({
                 />
                 <div className="flex flex-col gap-4">
                   <div>
-                    <div className="font-bold">Wira Ananda</div>
-                    <div className="text-sm ">{contact.title}</div>
+                    <div className="font-bold flex items-center gap-1.5">
+                      Wira Ananda{" "}
+                      <RiVerifiedBadgeFill
+                        size={14}
+                        className="text-blue-400 cursor-pointer md:block hidden"
+                      />
+                    </div>
+                    <div className="text-sm text-muted-foreground">
+                      {contact.title}
+                    </div>
                   </div>
+                  <div className="text-sm ">{contact.caption}</div>
                   <div className="flex gap-4">
                     <div className="flex gap-1 text-sm items-center">
                       {contact.id === "github"

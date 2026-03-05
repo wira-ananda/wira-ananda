@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "next-themes";
 import LenisScroll from "@/components/ui/lenis-component";
@@ -12,7 +11,7 @@ export const metadata: Metadata = {
 };
 
 const poppins = Poppins({
-  weight: "400",
+  weight: ["400"],
   subsets: ["latin"],
 });
 
@@ -23,13 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={poppins.className} suppressHydrationWarning>
-      <head>
-        <link
-          href="https://fonts.googleapis.com/css2?family=Cascadia+Mono:ital,wght@0,200..700;1,200..700&display=swap"
-          rel="stylesheet"
-        />
-      </head>
-      <body className={`antialiased font-cascadia`}>
+      <body className={`antialiased`}>
         <ThemeProvider attribute="class" enableSystem defaultTheme="system">
           <LenisScroll />
           {children}

@@ -1,6 +1,7 @@
 [
   {
     "id": "instagram",
+    "caption": "A little glimpse of my life, creativity, and things I enjoy building.",
     "imageSrc": "https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg",
     "imageAlt": "Instagram Wira Ananda",
     "title": "wiraanandaa_",
@@ -10,6 +11,7 @@
   },
   {
     "id": "linkedin",
+    "caption": "Let’s connect with me and build our professional network together.",
     "imageSrc": "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png",
     "imageAlt": "LinkedIn Wira Ananda",
     "title": "wira-ananda",
@@ -19,6 +21,7 @@
   },
   {
     "id": "github",
+    "caption": "Just place where I share my code, experiments, and development journey.",
     "imageSrc": "https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png",
     "imageAlt": "Github Wira Ananda",
     "title": "wira-ananda",
@@ -28,6 +31,7 @@
   },
   {
     "id": "email",
+    "caption": "Reach out anytime if you’d like to collaborate or simply say hi.",
     "imageSrc": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png",
     "imageAlt": "Email Wira Ananda",
     "title": "ur.wiraananda@gmail.com",
