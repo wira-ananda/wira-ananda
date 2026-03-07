@@ -28,11 +28,11 @@ export default function HomePage() {
       {/* <Opening /> */}
       <>
         <Navbar />
-        <Hero />
-        <About />
-        <Contact />
-        <Projects />
-        <Journey />
+        <Hero id="hero" />
+        <About id="about" />
+        <Contact id="contact" />
+        <Projects id="projects" />
+        <Journey id="journey" />
         <Footer />
       </>
     </div>

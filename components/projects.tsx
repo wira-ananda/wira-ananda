@@ -148,14 +148,14 @@ const ProjectDetail = ({
   );
 };
 
-export default function Projects() {
+export default function Projects({ id }: { id: string }) {
   const { theme } = useTheme();
   const [showAll, setShowAll] = useState(false);
 
   const projectsToShow = showAll ? dataProjects : dataProjects.slice(0, 3);
 
   return (
-    <section>
+    <section id={id}>
       <div className={`${contentWidth} mx-auto border-x text-sm`}>
         <h1
           className={`items-center w-full px-4 py-1.5 gap-2 text-2xl font-semibold`}

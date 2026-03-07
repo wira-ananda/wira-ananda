@@ -11,7 +11,7 @@ import {
 import { useTheme } from "next-themes";
 import GradientText from "./ui/GradientText";
 
-export default function Hero() {
+export default function Hero({ id }: { id: string }) {
   const { theme } = useTheme();
   const colorsGradient =
     theme === "dark"
@@ -20,7 +20,7 @@ export default function Hero() {
 
   return (
     <>
-      <header className="">
+      <header id={id} className="">
         <div className={`${contentWidth} mx-auto border-x flex`}>
           <div className="border-r w-48 flex relative  items-center justify-center">
             <Image

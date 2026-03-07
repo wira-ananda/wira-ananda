@@ -5,9 +5,9 @@ import { FaReact, FaNodeJs, FaLaravel } from "react-icons/fa";
 import { TbBrandNextjs } from "react-icons/tb";
 import { useTheme } from "next-themes";
 
-export default function About() {
+export default function About({ id }: { id: string }) {
   return (
-    <main>
+    <main id={id}>
       <div className={`${contentWidth} mx-auto border-x text-sm`}>
         <h1 className="items-center px-4 border-b text-2xl font-semibold">
           About

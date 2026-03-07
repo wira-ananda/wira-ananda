@@ -68,7 +68,7 @@ const dataJourney = [
   },
 ];
 
-export default function Journey() {
+export default function Journey({ id }: { id: string }) {
   // transform dataJourney ke format Timeline
   const timelineData = dataJourney.map((item) => ({
     title: item.year,
@@ -94,7 +94,7 @@ export default function Journey() {
   }));
 
   return (
-    <section>
+    <section id={id}>
       <div className={`${contentWidth} mx-auto border-x`}>
         {/* <div className="px-4 hidden md:block">
           <ScrollReveal

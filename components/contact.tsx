@@ -15,6 +15,7 @@ interface RadixHoverCardProps {
   align?: "start" | "center" | "end";
   alignOffset?: number;
   followCursor?: boolean | "x" | "y";
+  id: string;
 }
 
 interface GithubResponse {
@@ -29,6 +30,7 @@ export default function Contact({
   align,
   alignOffset,
   followCursor,
+  id,
 }: RadixHoverCardProps) {
   const [statsGithub, setStatsGithub] = useState<GithubResponse | null>(null);
 
@@ -43,7 +45,7 @@ export default function Contact({
   const totalContributions = statsGithub?.totalContributions;
 
   return (
-    <section>
+    <section id={id}>
       <div
         className={`${contentWidth} mx-auto border-x text-sm grid grid-cols-1 md:grid-cols-2 gap-4`}
       >

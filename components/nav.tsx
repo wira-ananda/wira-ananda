@@ -32,6 +32,13 @@ export default function Navbar() {
   const { theme, setTheme } = useTheme();
   const wiraLogo = theme === "dark" ? wiraLogoLight : wiraLogoDark;
 
+  const handleScrollToSection = (sectionId: string) => {
+    const el = document.getElementById(sectionId);
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth", block: "start" });
+      setShowCommandCard(false); // tutup command setelah klik
+    }
+  };
   const [showCommandCard, setShowCommandCard] = useState(false);
 
   const [mounted, setMounted] = useState(false);
@@ -122,17 +129,47 @@ export default function Navbar() {
           <CommandInput placeholder="Type a command or search..." />
           <CommandList>
             <CommandEmpty>No results found.</CommandEmpty>
-            <CommandGroup heading="Suggestions">
-              <CommandItem className="cursor-pointer">Calendar</CommandItem>
-              <CommandItem className="cursor-pointer">Search Emoji</CommandItem>
-              <CommandItem className="cursor-pointer">Calculator</CommandItem>
+
+            <CommandGroup heading="Navigation">
+              <CommandItem
+                className="cursor-pointer"
+                onSelect={() => handleScrollToSection("hero")}
+              >
+                Hero
+              </CommandItem>
+              <CommandItem
+                className="cursor-pointer"
+                onSelect={() => handleScrollToSection("about")}
+              >
+                About
+              </CommandItem>
+              <CommandItem
+                className="cursor-pointer"
+                onSelect={() => handleScrollToSection("contact")}
+              >
+                Contact
+              </CommandItem>
+              <CommandItem
+                className="cursor-pointer"
+                onSelect={() => handleScrollToSection("projects")}
+              >
+                Projects
+              </CommandItem>
+              <CommandItem
+                className="cursor-pointer"
+                onSelect={() => handleScrollToSection("journey")}
+              >
+                Journey
+              </CommandItem>
             </CommandGroup>
-            <CommandSeparator />
+
+            {/* <CommandSeparator />
+
             <CommandGroup heading="Settings">
-              <CommandItem className="cursor-pointer">Profile</CommandItem>
-              <CommandItem className="cursor-pointer">Billing</CommandItem>
-              <CommandItem className="cursor-pointer">Settings</CommandItem>
-            </CommandGroup>
+              <CommandItem>Profile</CommandItem>
+              <CommandItem>Billing</CommandItem>
+              <CommandItem>Settings</CommandItem>
+            </CommandGroup> */}
           </CommandList>
         </Command>
       </CommandDialog>
