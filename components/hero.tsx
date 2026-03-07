@@ -25,7 +25,7 @@ export default function Hero({ id }: { id: string }) {
           <div className="border-r w-48 flex relative  items-center justify-center">
             <Image
               src={"/img/wira-foto-test.jpg"}
-              alt="Wira Aananda Profile Photo"
+              alt="Wira Ananda Profile Photo"
               width={1754}
               height={1754}
               className="relative rounded-full object-cover shadow-lg border"
