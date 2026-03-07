@@ -189,7 +189,7 @@ export default function Projects({ id }: { id: string }) {
         {dataProjects.length > 3 && (
           <div className="flex justify-center">
             <Button
-              className={`${theme} w-full px-4 border rounded hover:bg-gray-100 transition-all duration-300 cursor-pointer`}
+              className={`w-full px-4 border rounded transition-all duration-300 cursor-pointer `}
               onClick={() => setShowAll(!showAll)}
             >
               {showAll ? <IoIosArrowDown /> : <IoIosArrowUp />}
