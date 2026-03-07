@@ -22,7 +22,7 @@ export default function Hero({ id }: { id: string }) {
     <>
       <header id={id} className="">
         <div className={`${contentWidth} mx-auto border-x flex`}>
-          <div className="border-r w-48 flex relative  items-center justify-center">
+          <div className="border-r w-40 md:w-48 flex relative  items-center justify-center">
             <Image
               src={"/img/wira-foto.jpg"}
               alt="Wira Ananda Profile Photo"
