@@ -41,12 +41,14 @@ export default function Hero({ id }: { id: string }) {
         <div className={`${contentWidth} mx-auto border-x flex`}>
           <div className="border-r w-40 md:w-48 flex relative  items-center justify-center">
             <Image
-              src={"/img/wira-foto.jpg"}
+              src="/img/wira-foto.jpg"
               alt="Wira Ananda Profile Photo"
               width={1754}
               height={1754}
+              priority
+              sizes="(max-width: 768px) 160px, 192px"
               className="relative rounded-full object-cover shadow-lg border"
-            />{" "}
+            />
           </div>
           <div className="flex items-end w-full">
             <span className="w-full border-t">
