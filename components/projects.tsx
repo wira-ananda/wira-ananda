@@ -158,7 +158,7 @@ export default function Projects() {
     <section>
       <div className={`${contentWidth} mx-auto border-x text-sm`}>
         <h1
-          className={`flex items-center w-full px-4 py-1.5 gap-2 text-2xl font-semibold`}
+          className={`items-center w-full px-4 py-1.5 gap-2 text-2xl font-semibold`}
         >
           Projects
         </h1>

@@ -9,6 +9,7 @@ import About from "./about";
 import Contact from "./contact";
 import Projects from "./projects";
 import Journey from "./journey";
+import Footer from "./footer";
 
 export default function HomePage() {
   const { theme } = useTheme();
@@ -32,6 +33,7 @@ export default function HomePage() {
         <Contact />
         <Projects />
         <Journey />
+        <Footer />
       </>
     </div>
   );
@@ -43,12 +45,12 @@ export function EmptySection() {
   const { theme } = useTheme();
   const colorStripes =
     theme === "dark"
-      ? `rgba(255,255,255,0.05),
-        rgba(255,255,255,0.05) 0.8px,
+      ? `rgba(255,255,255,0.08),
+        rgba(255,255,255,0.08) 0.8px,
         transparent 0.5px,
         transparent 15px`
-      : `rgba(0,0,0,0.05),
-        rgba(0,0,0,0.05) 0.8px,
+      : `rgba(0,0,0,0.08),
+        rgba(0,0,0,0.08) 0.8px,
         transparent 0.5px,
         transparent 10px`;
   return (

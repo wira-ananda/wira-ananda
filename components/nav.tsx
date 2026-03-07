@@ -48,7 +48,7 @@ export default function Navbar() {
       className={`sticky top-0 z-50 border-b  transition-all duration-300
     ${scrolled ? "backdrop-blur bg-background/80" : ""}`}
     >
-      <div className="h-3.5 mx-auto border-b"></div>
+      <div className="h-3 mx-auto border-b"></div>
       <div
         className={`${contentWidth} mx-auto border-l border-r flex gap-1 justify-end h-13`}
         suppressHydrationWarning={true}
