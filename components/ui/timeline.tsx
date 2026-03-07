@@ -14,7 +14,7 @@ interface TimelineEntry {
 
 export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
   const ref = useRef<HTMLDivElement>(null);
-  const containerRef = useRef<HTMLDivElement>(null);
+  const contentRef = useRef<HTMLDivElement>(null);
   const [height, setHeight] = useState(0);
 
   // Hitung tinggi seluruh konten, bukan hanya viewport
@@ -26,8 +26,8 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
 
   // Scroll progress untuk seluruh container
   const { scrollYProgress } = useScroll({
-    target: containerRef,
-    offset: ["start start", "end 90%"], // sampai akhir kontainer
+    target: contentRef,
+    offset: ["start start", "end end"], // sampai akhir kontainer
   });
 
   // Transform progress menjadi tinggi dan opacity garis
@@ -35,11 +35,15 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
   const opacityTransform = useTransform(scrollYProgress, [0, 0.1], [0, 1]);
 
   return (
-    <div className="w-full" ref={containerRef}>
+    <div className="w-full">
       <div className="max-w-5xl mx-auto"></div>
       <div ref={ref} className="relative max-w-7xl mx-auto">
         {data.map((item, index) => (
-          <div key={index} className="flex justify-start pb-10">
+          <div
+            ref={contentRef}
+            key={index}
+            className="flex justify-start pb-10"
+          >
             <div className="sticky flex flex-col md:flex-row z-40 items-center top-40 self-start max-w-xs md:w-full">
               <div className="h-10 absolute left-4 w-10 rounded-full bg-muted dark:bg-black flex items-center justify-center">
                 <div className="h-4 w-4 rounded-full bg-neutral-200 dark:bg-neutral-800 border border-neutral-300 dark:border-neutral-700 p-2" />

@@ -1,4 +1,5 @@
 "use client";
+import { useState, useEffect } from "react";
 import Typewriter from "typewriter-effect";
 import { contentWidth, EmptySection } from "./HomePage";
 import Image from "next/image";
@@ -17,6 +18,22 @@ export default function Hero({ id }: { id: string }) {
     theme === "dark"
       ? ["#2a9d8f", "#9ef0e6", "#ffffff"]
       : ["#2a9d8f", "#2b7d77", "#000000"];
+
+  const [side, setSide] = useState<"top" | "right">("top");
+  useEffect(() => {
+    const checkScreen = () => {
+      if (window.innerWidth >= 768) {
+        setSide("right");
+      } else {
+        setSide("top");
+      }
+    };
+
+    checkScreen();
+    window.addEventListener("resize", checkScreen);
+
+    return () => window.removeEventListener("resize", checkScreen);
+  }, []);
 
   return (
     <>
@@ -39,7 +56,7 @@ export default function Hero({ id }: { id: string }) {
                   animationSpeed={1.5}
                   showBorder={false}
                   pauseOnHover={true}
-                  className="ml-3 mr-1 my-1 text-4xl gradient-text font-black"
+                  className="ml-3 mr-1 my-1 text-3xl md:text-4xl gradient-text font-black"
                 >
                   Wira Ananda
                 </GradientText>
@@ -47,11 +64,11 @@ export default function Hero({ id }: { id: string }) {
                   <HoverCardTrigger asChild>
                     <RiVerifiedBadgeFill
                       size={22}
-                      className="text-blue-400 cursor-pointer md:block hidden"
+                      className="text-blue-400 cursor-pointer"
                     />
                   </HoverCardTrigger>
                   <HoverCardContent
-                    side="right"
+                    side={side}
                     className={`flex w-64 gap-0.5 text-sm `}
                   >
                     <span>🎯</span>
