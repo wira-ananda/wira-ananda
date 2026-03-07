@@ -5,13 +5,9 @@
 
 @custom-variant dark (&:is(.dark *));
 
-html {
-  background-color: rgba(251, 253, 255, 0.918);
-  color: #010b16;
-}
+html,
 body {
-  background-color: #fbfdffea;
-  color: #010b16;
+  background-color: rgba(251, 253, 255, 0.918);
 }
 
 button:hover {
@@ -37,7 +33,7 @@ button.dark:hover {
 
 .dark {
   background-color: #010b16;
-  color: #ffffffea;
+  color: rgba(251, 253, 255, 0.918);
   --background: oklch(0.145 0 0);
   --foreground: oklch(0.985 0 0);
   --card: oklch(0.205 0 0);
