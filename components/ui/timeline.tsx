@@ -27,7 +27,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
   // Scroll progress untuk seluruh container
   const { scrollYProgress } = useScroll({
     target: contentRef,
-    offset: ["start start", "end end"], // sampai akhir kontainer
+    offset: ["start start", "end 90%"], // sampai akhir kontainer
   });
 
   // Transform progress menjadi tinggi dan opacity garis
@@ -35,17 +35,16 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
   const opacityTransform = useTransform(scrollYProgress, [0, 0.1], [0, 1]);
 
   return (
-    <div className="w-full">
+    <div className="w-full" ref={contentRef}>
       <div className="max-w-5xl mx-auto"></div>
       <div ref={ref} className="relative max-w-7xl mx-auto">
         {data.map((item, index) => (
-          <div
-            ref={contentRef}
-            key={index}
-            className="flex justify-start pb-10"
-          >
+          <div key={index} className="flex justify-start pb-10">
             <div className="sticky flex flex-col md:flex-row z-40 items-center top-40 self-start max-w-xs md:w-full">
-              <div className="h-10 absolute left-4 w-10 rounded-full bg-muted dark:bg-black flex items-center justify-center">
+              <div
+                className="h-10 absolute left-4 w-10 rounded-full bg-muted dark:bg-black flex items-center justify-center"
+                id="dot"
+              >
                 <div className="h-4 w-4 rounded-full bg-neutral-200 dark:bg-neutral-800 border border-neutral-300 dark:border-neutral-700 p-2" />
               </div>
               <h3 className="hidden md:block text-3xl md:pl-20 font-medium">
@@ -73,7 +72,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
               height: heightTransform,
               opacity: opacityTransform,
             }}
-            className="absolute inset-x-0 top-0 w-2 bg-linear-to-t from-teal-700 via-cyan-500 to-transparent from-0% via-90% rounded-full"
+            className="absolute inset-x-0 top-0 w-2 bg-linear-to-t from-teal-600 via-teal-800 to-black from-0% via-90% rounded-full"
           />
         </div>
       </div>
