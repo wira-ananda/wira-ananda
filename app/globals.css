@@ -7,7 +7,7 @@
 
 html,
 body {
-  background-color: rgba(251, 253, 255, 0.918);
+  background-color: rgba(251, 253, 255, 0.918) !important;
 }
 
 button:hover {
