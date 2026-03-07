@@ -26,6 +26,10 @@ button.dark:hover {
   background-color: rgb(1, 11, 20);
 }
 
+.light {
+  background-color: #fbfdffea;
+  color: #010b16;
+}
 .dark {
   background-color: #010b16;
   color: rgba(251, 253, 255, 0.918);
