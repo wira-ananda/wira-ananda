@@ -5,10 +5,15 @@
 
 @custom-variant dark (&:is(.dark *));
 
+html {
+  background-color: rgba(251, 253, 255, 0.918);
+  color: #010b16;
+}
 body {
   background-color: rgba(251, 253, 255, 0.918);
   color: #010b16;
 }
+
 button:hover {
   color: #888888;
 }
