@@ -91,7 +91,7 @@ function SkillBadge({
     green:
       "border-green-500/60 bg-green-500/10 dark:text-green-400 text-green-700",
     red: "border-red-500/60 bg-red-500/10 dark:text-red-400 text-red-900",
-    gray: "border-gray-500/60 bg-gray-500/10 dark:text-gray-300 text-gray-800",
+    gray: "border-gray-500/60 bg-gray-500/10 text-primary",
   };
 
   return (

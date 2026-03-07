@@ -24,7 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={poppins.className} suppressHydrationWarning>
       <body className={`antialiased `} style={{ backgroundColor: "#ffffffea" }}>
-        <ThemeProvider attribute="class" enableSystem defaultTheme="system">
+        <ThemeProvider attribute="class" enableSystem defaultTheme="light">
           <LenisScroll />
           {children}
           <SpeedInsights />
