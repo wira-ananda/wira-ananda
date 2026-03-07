@@ -3,6 +3,7 @@ import "./globals.css";
 import { ThemeProvider } from "next-themes";
 import LenisScroll from "@/components/ui/lenis-component";
 import { Poppins } from "next/font/google";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata: Metadata = {
   title: "Wira Ananda - Web Developer",
@@ -26,6 +27,7 @@ export default function RootLayout({
         <ThemeProvider attribute="class" enableSystem defaultTheme="system">
           <LenisScroll />
           {children}
+          <SpeedInsights />
         </ThemeProvider>
       </body>
     </html>
