@@ -10,7 +10,7 @@ html {
   color: #010b16;
 }
 body {
-  background-color: rgba(251, 253, 255, 0.918);
+  background-color: #fbfdffea;
   color: #010b16;
 }
 
@@ -141,8 +141,7 @@ button.dark:hover {
 
 :root {
   --radius: 0.625rem;
-  --background: oklch(92.494% 0.00011 271.152);
-  --foreground: oklch(0.145 0 0);
+  --background: #fbfdffea --foreground: oklch(0.145 0 0);
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.145 0 0);
   --popover: oklch(1 0 0);
