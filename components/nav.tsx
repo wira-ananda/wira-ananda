@@ -1,5 +1,3 @@
-"use client";
-
 import React, { useEffect, useState } from "react";
 import { FiSearch as Search } from "react-icons/fi";
 import { useTheme } from "next-themes";
@@ -75,7 +73,7 @@ export default function Navbar() {
               width={400}
               height={400}
               src={wiraLogo}
-              alt="Wira Ananda Logo"
+              alt="Logo Wira Ananda pada Navbar"
               className={`
         w-8 ml-2
         transition-all duration-500 ease-out
@@ -97,7 +95,7 @@ export default function Navbar() {
                 setShowCommandCard(true);
               }}
               className={`cursor-pointer relative px-3 py-1.5 rounded-full text-xs font-medium  transition-all duration-300 flex items-center gap-2 border`}
-              aria-label="Search (Cmd+K)"
+              aria-label="Button untuk membuka fitur Searching dan command untuk navigasi"
               suppressHydrationWarning={true}
             >
               <Search className={`w-4 h-4 `} />
@@ -108,13 +106,21 @@ export default function Navbar() {
             <button
               onClick={() => setTheme(theme === "light" ? "dark" : "light")}
               className={`cursor-pointer relative px-3 py-1.5 rounded-full text-xs font-medium  hover:text-gray-900  transition-all duration-300 flex items-center gap-2 border`}
-              aria-label="Switch Theme"
+              aria-label="Klik untuk Ganti Tema"
               suppressHydrationWarning={true}
             >
               {theme === "light" ? (
-                <GoSun size={15} className="mx-auto" />
+                <GoSun
+                  size={15}
+                  className="mx-auto"
+                  aria-label="Ikon matahari untuk tema terang"
+                />
               ) : (
-                <PiMoonLight size={15} className="mx-auto" />
+                <PiMoonLight
+                  size={15}
+                  className="mx-auto"
+                  aria-label="Ikon bulan untuk tema gelap"
+                />
               )}
             </button>
           </div>
@@ -124,40 +130,42 @@ export default function Navbar() {
         open={showCommandCard}
         onOpenChange={setShowCommandCard}
         className={`${theme}`}
+        aria-labelledby="command-dialog-title"
       >
         <Command className={`rounded-lg border`}>
-          <CommandInput placeholder="Type a command or search..." />
+          <CommandInput
+            placeholder="Type a command or search..."
+            aria-label="Input untuk mengetik perintah atau pencarian"
+          />
           <CommandList>
             <CommandEmpty>No results found.</CommandEmpty>
 
             <CommandGroup heading="Navigation">
               <CommandItem
                 className="cursor-pointer"
-                onSelect={() => handleScrollToSection("hero")}
-              >
-                Hero
-              </CommandItem>
-              <CommandItem
-                className="cursor-pointer"
                 onSelect={() => handleScrollToSection("about")}
+                aria-label="Pilih untuk menuju bagian About"
               >
                 About
               </CommandItem>
               <CommandItem
                 className="cursor-pointer"
                 onSelect={() => handleScrollToSection("contact")}
+                aria-label="Pilih untuk menuju bagian Contact"
               >
                 Contact
               </CommandItem>
               <CommandItem
                 className="cursor-pointer"
                 onSelect={() => handleScrollToSection("projects")}
+                aria-label="Pilih untuk menuju bagian Projects"
               >
                 Projects
               </CommandItem>
               <CommandItem
                 className="cursor-pointer"
                 onSelect={() => handleScrollToSection("journey")}
+                aria-label="Pilih untuk menuju bagian Pengalaman"
               >
                 Journey
               </CommandItem>

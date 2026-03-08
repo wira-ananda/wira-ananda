@@ -1,4 +1,3 @@
-"use client";
 import { useState, useEffect } from "react";
 import Typewriter from "typewriter-effect";
 import { contentWidth, EmptySection } from "./HomePage";
@@ -42,7 +41,7 @@ export default function Hero({ id }: { id: string }) {
           <div className="border-r w-40 md:w-48 flex relative  items-center justify-center">
             <Image
               src="/img/wira-foto.jpg"
-              alt="Wira Ananda Profile Photo"
+              alt="Foto profil Wira Ananda, scroll untuk melihat konten lebih banyak"
               width={1754}
               height={1754}
               priority

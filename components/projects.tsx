@@ -59,11 +59,12 @@ const ProjectList = ({
       <div className="flex gap-5 items-center">
         <span
           className={`w-8 h-8 flex items-center justify-center rounded-md ${warnaLogo}`}
+          aria-label={`Logo untuk proyek ${title}`}
         >
           {iconLink && (
             <Image
               src={iconLink}
-              alt="Project Logo"
+              alt={`Logo untuk proyek ${title}`}
               width={25}
               height={25}
               className="object-cover w-8 h-8"
@@ -81,12 +82,16 @@ const ProjectList = ({
           <a
             href={projectLink}
             className="hover:text-blue-500 transition-all duration-300"
+            aria-label={`Lihat proyek ${title}`}
           >
             <VscEye size={23} />
           </a>
         )}
         <AccordionTrigger>
-          <div className="cursor-pointer hover:text-red-500 transition-all duration-300">
+          <div
+            className="cursor-pointer hover:text-red-500 transition-all duration-300"
+            aria-label={`Informasi lebih lanjut tentang proyek ${title}`}
+          >
             <HiOutlineInformationCircle size={23} />
           </div>
         </AccordionTrigger>
@@ -105,14 +110,23 @@ const ProjectDetail = ({
   projectImage?: string[];
 }) => {
   return (
-    <AccordionContent className="group p-4 items-center w-full grid grid-cols-1 gap-3">
+    <AccordionContent
+      className="group p-4 items-center w-full grid grid-cols-1 gap-3"
+      aria-live="polite"
+    >
       {projectImage && (
-        <figure className="w-full border">
+        <figure className="w-full border" aria-label="Gambar proyek">
           <Carousel className="relative">
             {projectImage.length >= 2 && (
               <>
-                <CarouselPrevious className="absolute left-3 z-20 shadow" />
-                <CarouselNext className="absolute right-3 z-20 shadow" />
+                <CarouselPrevious
+                  className="absolute left-3 z-20 shadow"
+                  aria-label="Gambar sebelumnya"
+                />
+                <CarouselNext
+                  className="absolute right-3 z-20 shadow"
+                  aria-label="Gambar berikutnya"
+                />
               </>
             )}
 
@@ -122,7 +136,7 @@ const ProjectDetail = ({
                   <div className="relative mx-auto w-full aspect-video">
                     <Image
                       src={img}
-                      alt={`Project image ${index + 1}`}
+                      alt={`Gambar proyek ${index + 1}`}
                       fill
                       className="object-cover"
                     />
@@ -159,6 +173,8 @@ export default function Projects({ id }: { id: string }) {
       <div className={`${contentWidth} mx-auto border-x text-sm`}>
         <h1
           className={`items-center w-full px-4 py-1.5 gap-2 text-2xl font-semibold`}
+          id="projects-title"
+          aria-label="Bagian Proyek"
         >
           Projects
         </h1>
@@ -167,7 +183,7 @@ export default function Projects({ id }: { id: string }) {
         >
           What I build, what I’m proud of.
         </h2>
-        <Accordion type="single" collapsible>
+        <Accordion type="single" collapsible aria-labelledby="projects-title">
           {projectsToShow.map((project) => (
             <AccordionItem key={project.id} value={project.id}>
               <ProjectList
@@ -189,8 +205,10 @@ export default function Projects({ id }: { id: string }) {
         {dataProjects.length > 3 && (
           <div className="flex justify-center">
             <Button
-              className={`w-full px-4 border rounded transition-all duration-300 cursor-pointer `}
+              className={`w-full px-4 border rounded transition-all duration-300 cursor-pointer`}
               onClick={() => setShowAll(!showAll)}
+              aria-expanded={showAll ? "true" : "false"}
+              aria-controls="projects-list"
             >
               {showAll ? <IoIosArrowDown /> : <IoIosArrowUp />}
             </Button>

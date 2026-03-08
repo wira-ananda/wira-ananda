@@ -52,7 +52,7 @@ export default function Contact({
         {dataContact.map((contact) => (
           <HoverCard key={contact.id} followCursor>
             <HoverCardTrigger asChild>
-              <div>
+              <div aria-label="Kontak Wira Ananda" role="button">
                 <ContactItem
                   imageSrc={contact.imageSrc}
                   imageAlt={contact.imageAlt}
@@ -73,6 +73,7 @@ export default function Contact({
               align={align}
               alignOffset={alignOffset}
               className={`w-80`}
+              aria-live="polite" // Konten dinamis yang muncul setelah hover
             >
               <div className="flex flex-col gap-4">
                 <img
@@ -82,7 +83,7 @@ export default function Contact({
                       ? "/img/wira-foto-profil2.jpg"
                       : "/img/wira-foto-profil.jpg"
                   }
-                  alt={contact.imageAlt}
+                  alt={contact.imageAlt} // Alt text yang sudah sesuai pada gambar
                 />
                 <div className="flex flex-col gap-4">
                   <div>
@@ -91,6 +92,7 @@ export default function Contact({
                       <RiVerifiedBadgeFill
                         size={14}
                         className="text-blue-400 cursor-pointer md:block hidden"
+                        aria-label="Tanda verifikasi" // Deskripsi untuk ikon verifikasi
                       />
                     </div>
                     <div className="text-sm text-muted-foreground">
@@ -104,7 +106,7 @@ export default function Contact({
                         ? `${totalContributions != null ? totalContributions : "600+"} contributions`
                         : contact.subtitle[0]}
                     </div>
-                    <div className="flex gap-1 text-sm items-center ">
+                    <div className="flex gap-1 text-sm items-center">
                       {contact.id === "github"
                         ? `${joinedYears != null ? joinedYears : "3"} years on Github`
                         : contact.subtitle[1]}

@@ -1,8 +1,4 @@
-"use client";
-import React from "react";
 import { contentWidth, EmptySection } from "./HomePage";
-import Image from "next/image";
-import ScrollReveal from "./ui/scroll-reveal";
 import { Timeline } from "@/components/ui/timeline";
 
 const dataJourney = [
@@ -77,10 +73,11 @@ export default function Journey({ id }: { id: string }) {
         <div className="flex gap-4 items-center">
           <img
             src={item.iconLink}
-            alt={item.title}
+            alt={`Logo ${item.title}`}
             width={50}
             height={50}
             className="rounded-md object-cover"
+            aria-label={`Logo untuk ${item.title}`} // Menambahkan deskripsi untuk pembaca layar
           />
 
           <div className="flex flex-col text-left">
@@ -96,19 +93,12 @@ export default function Journey({ id }: { id: string }) {
   return (
     <section id={id}>
       <div className={`${contentWidth} mx-auto border-x`}>
-        {/* <div className="px-4 hidden md:block">
-          <ScrollReveal
-            baseOpacity={0.8}
-            enableBlur
-            baseRotation={4}
-            blurStrength={15}
-          >
-            We are what we repeatedly do. Excellence grows through persistent
-            effort and mindful practice.
-          </ScrollReveal>
-        </div> */}
         <div className="">
-          <h2 className="text-2xl font-semibold mb-2 px-4 border-b py-1">
+          <h2
+            className="text-2xl font-semibold mb-2 px-4 border-b py-1"
+            id="journey-title"
+            aria-labelledby="journey-title"
+          >
             Journey
           </h2>
           <p className="text-muted-foreground mb-6 text-sm px-4">
@@ -116,7 +106,6 @@ export default function Journey({ id }: { id: string }) {
             way.
           </p>
 
-          {/* Desktop: Timeline */}
           <div className="relative w-full overflow-clip md:top-4">
             <Timeline data={timelineData} />
           </div>
