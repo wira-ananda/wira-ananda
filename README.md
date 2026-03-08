@@ -1,9 +1,8 @@
 ### Hi there, I'm [Wiraa](https://wiraananda.netlify.app/)👋
 
 - 🌱 I'm currently learning **Software Developing and Graphic Design**
-- 👨‍💻 My portfolio available [here](https://drive.google.com/drive/folders/1PCoXXgTsoPNJ2nHo-EUKJ1tZTSyApa8v)
 - 📫 How to reach me **ur.wiraananda@gmail.com**
-- 📄 Check my resume [here](https://drive.google.com/drive/folders/1Pnw6dLdDGn-kNdoKNo3cPiej_ytzdttU)
+- 📄 Check my portfolio & resume [here](https://drive.google.com/drive/folders/1Pnw6dLdDGn-kNdoKNo3cPiej_ytzdttU)
 
 ---
 
