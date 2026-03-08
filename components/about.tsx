@@ -88,14 +88,14 @@ function StatusBadge({ children }: { children: React.ReactNode }) {
   return (
     <span
       className="inline-flex items-center gap-2 pr-1.5 pl-2 rounded-full 
-                 border border-emerald-500/60 bg-emerald-500/10 
-                 dark:text-emerald-400 text-green-600 font-medium"
+             border border-emerald-500/60 
+             dark:text-emerald-400 text-green-800 font-medium"
       role="status"
       aria-live="polite"
     >
       <span className="relative flex h-2.5 w-2.5">
         <span className="absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75 animate-ping" />
-        <span className="relative inline-flex h-2.5 w-2.5 rounded-full bg-emerald-400 shadow-[0_0_10px_#34d399]" />
+        <span className="relative inline-flex h-2.5 w-2.5 rounded-full bg-emerald-200 shadow-[0_0_10px_#34d399]" />
       </span>
       {children}
     </span>
@@ -113,8 +113,7 @@ function SkillBadge({
 }) {
   const colors = {
     blue: "border-blue-500/60 bg-blue-500/10 dark:text-blue-400 text-blue-800",
-    green:
-      "border-green-500/60 bg-green-500/10 dark:text-green-400 text-green-700",
+    green: "border-green-500/60 dark:text-green-400 text-green-700",
     red: "border-red-500/60 bg-red-500/10 dark:text-red-400 text-red-900",
     gray: "border-gray-500/60 bg-gray-500/10 text-primary",
   };

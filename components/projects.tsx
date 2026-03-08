@@ -59,7 +59,6 @@ const ProjectList = ({
       <div className="flex gap-5 items-center">
         <span
           className={`w-8 h-8 flex items-center justify-center rounded-md ${warnaLogo}`}
-          aria-label={`Logo untuk proyek ${title}`}
         >
           {iconLink && (
             <Image
@@ -209,6 +208,7 @@ export default function Projects({ id }: { id: string }) {
               onClick={() => setShowAll(!showAll)}
               aria-expanded={showAll ? "true" : "false"}
               aria-controls="projects-list"
+              aria-label="Button untuk paginasi project"
             >
               {showAll ? <IoIosArrowDown /> : <IoIosArrowUp />}
             </Button>
