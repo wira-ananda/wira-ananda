@@ -23,6 +23,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={poppins.className} suppressHydrationWarning>
+      <head>
+        <meta
+          name="google-site-verification"
+          content="VdanyLXBh8xtrLoBDI1BdqqbDduXuvjlIya7OKOLhGY"
+        />
+      </head>
       <body className={`antialiased `}>
         <ThemeProvider attribute="class" enableSystem defaultTheme="light">
           <LenisScroll />
