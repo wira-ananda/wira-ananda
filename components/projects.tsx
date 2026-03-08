@@ -66,12 +66,12 @@ const ProjectList = ({
               alt="Project Logo"
               width={25}
               height={25}
-              className="object-cover"
+              className="object-cover w-8 h-8"
             />
           )}
           {Icon && <Icon size={17} className="text-white" />}
         </span>
-        <div className="leading-snug text-[.8rem] flex flex-col text-left">
+        <div className="leading-snug text-md flex flex-col text-left">
           <h3 className="font-semibold">{title}</h3>
           <h4 className="font-thin text-muted-foreground">{month}</h4>
         </div>

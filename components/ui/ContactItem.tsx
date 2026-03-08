@@ -54,7 +54,7 @@ export default function ContactItem({
           "
           style={{ width: imageSize, height: imageSize }}
         />
-        <div className="leading-normal text-[.8rem]">
+        <div className="leading-normal text-md">
           <h3 className="font-semibold ">{title}</h3>
           {subtitle && (
             <h3 className="font-thin text-muted-foreground">{subtitle}</h3>
