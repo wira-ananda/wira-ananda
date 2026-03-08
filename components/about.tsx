@@ -123,9 +123,7 @@ function SkillBadge({
       className={`inline-flex items-center gap-2 pr-1.5 pl-2 rounded-full border ${colors[color]} font-medium`}
       role="presentation"
     >
-      {icon && (
-        <span className="sr-only">Icon {children}</span> // Menyembunyikan teks ini dari tampilan visual, tetapi pembaca layar akan membacanya
-      )}
+      {icon && <span className="sr-only">Icon {children}</span>}
       {icon} {children}
     </span>
   );
