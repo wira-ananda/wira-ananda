@@ -35,9 +35,9 @@ function AboutContent() {
 
       <p className={`text-sm leading-relaxed ${colorText}`}>
         <span className="font-semibold">Junior Software Engineer </span>
-        yang fokus membangun aplikasi web modern dengan UI konsisten dan
-        integrasi sistem yang efisien. Berpengalaman mengerjakan project web
-        nyata secara kolaboratif dan saat ini{" "}
+        yang fokus membangun aplikasi modern dengan UI konsisten dan integrasi
+        sistem yang efisien. Berpengalaman mengerjakan project nyata secara
+        kolaboratif dan saat ini{" "}
         <StatusBadge aria-label="Status: terbuka untuk bekerja">
           terbuka untuk bekerja
         </StatusBadge>{" "}
