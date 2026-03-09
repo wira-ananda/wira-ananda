@@ -6,9 +6,9 @@ import { Poppins } from "next/font/google";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata: Metadata = {
-  title: "Wira Ananda - Web Developer",
+  title: "Wira Ananda - Software Engineer",
   description:
-    "Web Developer yang fokus membangun aplikasi web modern dengan UI konsisten, struktur semantik yang baik, serta performa dan integrasi sistem yang efisien.",
+    "Software Engineer yang fokus membangun aplikasi web modern dengan UI konsisten, struktur semantik yang baik, serta performa dan integrasi sistem yang efisien.",
 };
 
 const poppins = Poppins({
