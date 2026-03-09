@@ -74,8 +74,8 @@ export default function Hero({ id }: { id: string }) {
                   >
                     <span>🎯</span>
                     <p>
-                      <span className="font-semibold">Software Developer</span>{" "}
-                      — UI, performance, best practice.
+                      <span className="font-semibold">Software Engineer</span> —
+                      UI, performance, best practice.
                     </p>
                   </HoverCardContent>
                 </HoverCard>
@@ -87,7 +87,7 @@ export default function Hero({ id }: { id: string }) {
                       autoStart: true,
                       loop: true,
                       delay: 50,
-                      strings: ["Software Developer", "Graphic Designer"],
+                      strings: ["Software Engineer", "Graphic Designer"],
                     }}
                   />
                 </h2>
