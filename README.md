@@ -2,7 +2,7 @@
 
 - 🌱 I'm currently learning **Software Developing and Graphic Design**
 - 📫 How to reach me **ur.wiraananda@gmail.com**
-- 📄 Check my portfolio & resume [here](s.id/wira-portfolio)
+- 📄 Check my portfolio [here](s.id/wira-portfolio)
 
 ---
 
