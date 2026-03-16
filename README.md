@@ -1,4 +1,4 @@
-### Hi there, I'm [Wiraa](https://wiraananda.netlify.app/)👋
+### Hi there, I'm [Wiraa](https://wiraananda.vercel.app/)👋
 
 - 🌱 I'm currently learning **Software Developing and Graphic Design**
 - 📫 How to reach me **ur.wiraananda@gmail.com**
