@@ -4,8 +4,6 @@
 - 📫 How to reach me **ur.wiraananda@gmail.com**
 - 📄 Check my portfolio [here](https://s.id/wira-portfolio)
 
----
-
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
 <a href="https://react.dev/" target="_blank">
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React.js">
@@ -22,15 +20,11 @@
 <a href="https://laravel.com/docs" target="_blank">
   <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel">
 </a>
-<a href="https://inertiajs.com/" target="_blank">
-  <img src="https://img.shields.io/badge/Inertia.js-654FF0?style=for-the-badge&logo=inertia&logoColor=white" alt="Inertia.js">
+<a href="https://reactnative.dev/" target="_blank">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Native">
 </a>
-<a href="https://docs.astro.build/" target="_blank">
-  <img src="https://img.shields.io/badge/Astro-FF5D01?style=for-the-badge&logo=astro&logoColor=white" alt="Astro">
-</a>
-
-<a href="https://tailwindcss.com/docs" target="_blank">
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS">
+<a href="https://vuejs.org/" target="_blank">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1280px-Vue.js_Logo_2.svg.png" alt="Vue">
 </a>
 </div>
 
