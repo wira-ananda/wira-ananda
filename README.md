@@ -23,7 +23,7 @@
 </a>
 
 <a href="https://laravel.com/docs" target="_blank">
-  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel">
+  <img src="https://img.shields.io/badge/Laravel-000000?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel">
 </a>
 
 <a href="https://reactnative.dev/" target="_blank">
