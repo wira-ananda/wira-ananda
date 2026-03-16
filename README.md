@@ -48,10 +48,10 @@
       </td>
     </tr>
   </table>
-  <picture>
+  <!-- <picture>
     <source srcset="https://github-readme-stats.vercel.app/api?username=wira-ananda&show_icons=true&theme=github_dark&border_color=00000000" media="(prefers-color-scheme: dark)" />
     <img src="https://github-readme-stats.vercel.app/api?username=wira-ananda&show_icons=true&theme=default&border_color=00000000" alt="GitHub Stats" style="filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.1));" />
-  </picture>
+  </picture> -->
 
 <!--
 <div align="center">
