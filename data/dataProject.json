@@ -7,7 +7,7 @@
     "icon": "FaMoneyBillTransfer",
     "projectLink": "",
     "projectDesc": "Aplikasi mobile Expense Tracker sebagai solusi pencatatan keuangan pribadi yang efisien dan sesuai kebutuhan pengguna.",
-    "techStack": ["React Native", "Nest JS", "PostgreSQL"]
+    "techStack": ["React Native", "Vue JS","Nest JS", "PostgreSQL"]
   },
   {
     "id": "project-7",
