@@ -1,6 +1,32 @@
 [
   {
-    "id": "project-1",
+    "id": "project-8",
+    "title": "Expense Tracker - End to End Developing",
+    "month": "Mar 2026",
+    "warnaLogo": "bg-linear-to-br from-green-400 to-green-800",
+    "icon": "FaMoneyBillTransfer",
+    "projectLink": "",
+    "projectDesc": "Aplikasi mobile Expense Tracker sebagai solusi pencatatan keuangan pribadi yang efisien dan sesuai kebutuhan pengguna.",
+    "techStack": ["React Native", "Nest JS", "PostgreSQL"]
+  },
+  {
+    "id": "project-7",
+    "title": "Personal Website v3 - Full-Stack & Best Practice Focused",
+    "month": "Feb 2026",
+    "warnaLogo": "bg-linear-to-br from-black to-gray-200",
+    "icon": "BsPersonCircle",
+    "projectLink": "",
+    "projectDesc": "Personal Website Wira Ananda dengan desain UI minimalis, efisien, dan performa tinggi (PageSpeed 99/100), memberikan pengalaman pengguna responsif di semua perangkat.",
+    "techStack": ["Next JS"],
+    "projectImage": [
+      "/img/personal-v3-1.png",
+      "/img/personal-v3-2.png",
+      "/img/personal-v3-3.png",
+      "/img/personal-v3-4.png"
+    ]
+  },
+  {
+    "id": "project-6",
     "title": "HR System - Frontend Developing",
     "month": "Apr 2025",
     "warnaLogo": "bg-linear-to-br from-red-400 to-red-800",
@@ -11,7 +37,7 @@
     "projectImage": ["/img/project1-1.png", "/img/project1-2.png"]
   },
   {
-    "id": "project-2",
+    "id": "project-5",
     "title": "Tryout System - Frontend Developing",
     "month": "Jan 2025",
     "warnaLogo": "bg-linear-to-br from-blue-400 to-blue-800",
@@ -34,7 +60,7 @@
     ]
   },
   {
-    "id": "project-3",
+    "id": "project-4",
     "title": "Task Manager System - Full-Stack Developing",
     "month": "Mei 2025",
     "warnaLogo": "bg-linear-to-br from-gray-400 to-gray-800",
@@ -45,7 +71,17 @@
     "projectImage": ["/img/project3-1.png"]
   },
   {
-    "id": "project-4",
+    "id": "project-3",
+    "title": "API Task Manager v2 - Backend Developing",
+    "month": "Jun 2025",
+    "warnaLogo": "bg-linear-to-br from-gray-400 to-gray-100",
+    "iconLink": "https://img.icons8.com/?size=100&id=Ov4kJCn8JtAH&format=png&color=000000",
+    "projectLink": "https://github.com/taskify-id/task-manager-api-v2",
+    "projectDesc": "Api task-manager-api-v2 menggunakan MongoDB untuk penyimpanan data yang fleksibel dan skalabel.",
+    "techStack": ["Express", "NoSQL (MongoDB)", "JWT", "bcrypt.js", "REST API"]
+  },
+  {
+    "id": "project-2",
     "title": "Community Profile - Web & SEO Developing",
     "month": "Nov 2024",
     "warnaLogo": "bg-linear-to-br from-yellow-900 to-yellow-300",
@@ -62,18 +98,9 @@
     ],
     "projectImage": ["/img/project4-1.png"]
   },
+
   {
-    "id": "project-5",
-    "title": "API Task Manager v2 - Backend Developing",
-    "month": "Jun 2025",
-    "warnaLogo": "bg-linear-to-br from-gray-400 to-gray-100",
-    "iconLink": "https://img.icons8.com/?size=100&id=Ov4kJCn8JtAH&format=png&color=000000",
-    "projectLink": "https://github.com/taskify-id/task-manager-api-v2",
-    "projectDesc": "Api task-manager-api-v2 menggunakan MongoDB untuk penyimpanan data yang fleksibel dan skalabel.",
-    "techStack": ["Node.js", "Express", "NoSQL (MongoDB)", "JWT", "bcrypt.js"]
-  },
-  {
-    "id": "project-6",
+    "id": "project-1",
     "title": "WatchNow - UI/UX Design",
     "month": "Apr 2023",
     "warnaLogo": "bg-linear-to-br from-orange-600 via-teal-900 to-cyan-500",
@@ -90,7 +117,7 @@
     ]
   },
   {
-    "id": "project-7",
+    "id": "project-0",
     "title": "Personal Website v1 & v2",
     "month": "Apr 2023",
     "warnaLogo": "bg-linear-to-br from-black via-teal-700 to-cyan-500",

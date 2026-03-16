@@ -27,6 +27,7 @@ import { MdLocalMovies } from "react-icons/md";
 import { BsPersonCircle } from "react-icons/bs";
 import { Button } from "./ui/button";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
+import { FaMoneyBillTransfer } from "react-icons/fa6";
 
 const iconMap: Record<string, React.ComponentType<any>> = {
   FaChartBar: FaChartBar,
@@ -34,6 +35,7 @@ const iconMap: Record<string, React.ComponentType<any>> = {
   LiaSchoolSolid: LiaSchoolSolid,
   MdLocalMovies: MdLocalMovies,
   BsPersonCircle: BsPersonCircle,
+  FaMoneyBillTransfer: FaMoneyBillTransfer,
 };
 
 const ProjectList = ({
