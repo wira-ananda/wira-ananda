@@ -1,7 +1,7 @@
-### Hi there, I'm [Wiraa](https://wiraananda.vercel.app/)👋
+### Hi there, I'm [Wiraa](https://wiraananda.vercel.app/) 👋
 
-- 🌱 I'm currently learning **Software Developing and Graphic Design**
-- 📫 How to reach me **ur.wiraananda@gmail.com**
+- 🌱 I'm currently learning **Software Development, UI Implementation, and Graphic Design**
+- 📫 How to reach me: **ur.wiraananda@gmail.com**
 - 📄 Check my portfolio [here](https://s.id/wira-portfolio)
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
@@ -10,28 +10,36 @@
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React">
 </a>
 
-<a href="https://nextjs.org/docs" target="_blank">
+<a href="https://nextjs.org/" target="_blank">
   <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js">
 </a>
 
-<a href="https://expressjs.com/" target="_blank">
-  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js">
+<a href="https://vuejs.org/" target="_blank">
+  <img src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D" alt="Vue.js">
 </a>
 
-<a href="https://nestjs.com/" target="_blank">
-  <img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" alt="NestJS">
+<a href="https://nuxt.com/" target="_blank">
+  <img src="https://img.shields.io/badge/Nuxt-00DC82?style=for-the-badge&logo=nuxt.js&logoColor=white" alt="Nuxt">
 </a>
 
-<a href="https://laravel.com/docs" target="_blank">
-  <img src="https://img.shields.io/badge/Laravel-D30000?style=for-the-badge&logo=laravel&logoColor=black" alt="Laravel">
+<a href="https://astro.build/" target="_blank">
+  <img src="https://img.shields.io/badge/Astro-0F172A?style=for-the-badge&logo=astro&logoColor=white" alt="Astro">
 </a>
 
 <a href="https://reactnative.dev/" target="_blank">
   <img src="https://img.shields.io/badge/React%20Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Native">
 </a>
 
-<a href="https://vuejs.org/" target="_blank">
-  <img src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D" alt="Vue.js">
+<a href="https://nestjs.com/" target="_blank">
+  <img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" alt="NestJS">
+</a>
+
+<a href="https://expressjs.com/" target="_blank">
+  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js">
+</a>
+
+<a href="https://laravel.com/" target="_blank">
+  <img src="https://img.shields.io/badge/Laravel-D30000?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel">
 </a>
 
 </div>
