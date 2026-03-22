@@ -19,7 +19,7 @@
 </a>
 
 <a href="https://nuxt.com/" target="_blank">
-  <img src="https://img.shields.io/badge/Nuxt-00DC82?style=for-the-badge&logo=nuxt.js&logoColor=white" alt="Nuxt">
+  <img src="https://img.shields.io/badge/Nuxt-00DC82?style=for-the-badge&logo=nuxt&logoColor=white" alt="Nuxt">
 </a>
 
 <a href="https://astro.build/" target="_blank">
