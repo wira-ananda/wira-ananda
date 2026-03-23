@@ -28,6 +28,7 @@ import { BsPersonCircle } from "react-icons/bs";
 import { Button } from "./ui/button";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 import { FaMoneyBillTransfer } from "react-icons/fa6";
+import { IoWallet } from "react-icons/io5";
 
 const iconMap: Record<string, React.ComponentType<any>> = {
   FaChartBar: FaChartBar,
@@ -35,7 +36,7 @@ const iconMap: Record<string, React.ComponentType<any>> = {
   LiaSchoolSolid: LiaSchoolSolid,
   MdLocalMovies: MdLocalMovies,
   BsPersonCircle: BsPersonCircle,
-  FaMoneyBillTransfer: FaMoneyBillTransfer,
+  IoWallet: IoWallet,
 };
 
 const ProjectList = ({
@@ -101,6 +102,10 @@ const ProjectList = ({
   );
 };
 
+const isVideoFile = (file: string) => {
+  return /\.(mp4|webm|ogg|mov)$/i.test(file);
+};
+
 const ProjectDetail = ({
   projectDesc,
   techStack,
@@ -116,39 +121,58 @@ const ProjectDetail = ({
       aria-live="polite"
     >
       {projectImage && (
-        <figure className="w-full border" aria-label="Gambar proyek">
+        <figure className="w-full border" aria-label="Media proyek">
           <Carousel className="relative">
             {projectImage.length >= 2 && (
               <>
                 <CarouselPrevious
                   className="absolute left-3 z-20 shadow"
-                  aria-label="Gambar sebelumnya"
+                  aria-label="Media sebelumnya"
                 />
                 <CarouselNext
                   className="absolute right-3 z-20 shadow"
-                  aria-label="Gambar berikutnya"
+                  aria-label="Media berikutnya"
                 />
               </>
             )}
 
             <CarouselContent>
-              {projectImage?.map((img, index) => (
-                <CarouselItem key={index}>
-                  <div className="relative mx-auto w-full aspect-video">
-                    <Image
-                      src={img}
-                      alt={`Gambar proyek ${index + 1}`}
-                      fill
-                      className="object-cover"
-                    />
-                  </div>
-                </CarouselItem>
-              ))}
+              {projectImage.map((file, index) => {
+                const isVideo = isVideoFile(file);
+
+                return (
+                  <CarouselItem key={index}>
+                    <div className="relative mx-auto w-full aspect-video overflow-hidden bg-black">
+                      {isVideo ? (
+                        <video
+                          src={file}
+                          controls
+                          playsInline
+                          preload="metadata"
+                          className="h-full w-full object-cover"
+                          aria-label={`Video proyek ${index + 1}`}
+                        >
+                          Browser Anda tidak mendukung pemutaran video.
+                        </video>
+                      ) : (
+                        <Image
+                          src={file}
+                          alt={`Gambar proyek ${index + 1}`}
+                          fill
+                          className="object-cover"
+                        />
+                      )}
+                    </div>
+                  </CarouselItem>
+                );
+              })}
             </CarouselContent>
           </Carousel>
         </figure>
       )}
+
       <p>{projectDesc}</p>
+
       <div className="font-medium gap-2 flex flex-wrap max-w-full">
         {techStack.map((tech, index) => (
           <span
@@ -162,7 +186,6 @@ const ProjectDetail = ({
     </AccordionContent>
   );
 };
-
 export default function Projects({ id }: { id: string }) {
   const { theme } = useTheme();
   const [showAll, setShowAll] = useState(false);

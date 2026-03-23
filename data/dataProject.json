@@ -4,10 +4,22 @@
     "title": "Expense Tracker - End to End Developing",
     "month": "Mar 2026",
     "warnaLogo": "bg-linear-to-br from-green-400 to-green-800",
-    "icon": "FaMoneyBillTransfer",
+    "icon": "IoWallet",
     "projectLink": "",
-    "projectDesc": "Aplikasi mobile Expense Tracker sebagai solusi pencatatan keuangan pribadi yang efisien dan sesuai kebutuhan pengguna.",
-    "techStack": ["React Native", "Vue JS","Nest JS", "PostgreSQL"]
+    "projectDesc": "Aplikasi mobile Expense Tracker sebagai solusi pencatatan keuangan pribadi yang efisien dan sesuai kebutuhan pengguna. Cross Platform Service mencakup Api, Mobile, Web Landing, dan Web Dashboard.",
+    "techStack": [
+      "React Native",
+      "Vue JS",
+      "Nuxt",
+      "Astro",
+      "Nest JS",
+      "PostgreSQL"
+    ],
+    "projectImage": [
+      "/img/project8-1.png",
+      "/img/project8-2.png",
+      "/img/project8-3.mp4"
+    ]
   },
   {
     "id": "project-7",
