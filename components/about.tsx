@@ -3,6 +3,7 @@ import { contentWidth, EmptySection } from "./HomePage";
 import { FaReact, FaNodeJs, FaLaravel } from "react-icons/fa";
 import { TbBrandNextjs } from "react-icons/tb";
 import { useTheme } from "next-themes";
+import { SiNuxtdotjs, SiExpress, SiNestjs } from "react-icons/si";
 
 export default function About({ id }: { id: string }) {
   return (
@@ -64,10 +65,26 @@ function AboutContent() {
         ,{" "}
         <SkillBadge
           color="green"
-          icon={<FaNodeJs size={12} />}
+          icon={<SiNuxtdotjs size={12} />}
+          aria-label="Next.js"
+        >
+          Nuxt.js
+        </SkillBadge>
+        ,{" "}
+        <SkillBadge
+          color="red"
+          icon={<SiNestjs size={12} />}
           aria-label="Node.js"
         >
-          Node.js
+          Nest.js
+        </SkillBadge>
+        ,{" "}
+        <SkillBadge
+          color="gray"
+          icon={<SiExpress size={12} />}
+          aria-label="Node.js"
+        >
+          Express.js
         </SkillBadge>
         , dan{" "}
         <SkillBadge
