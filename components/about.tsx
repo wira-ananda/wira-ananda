@@ -48,14 +48,6 @@ function AboutContent() {
       <p>
         Saya terbiasa menggunakan{" "}
         <SkillBadge
-          color="blue"
-          icon={<FaReact size={12} />}
-          aria-label="React"
-        >
-          React
-        </SkillBadge>
-        ,{" "}
-        <SkillBadge
           color="gray"
           icon={<TbBrandNextjs size={12} />}
           aria-label="Next.js"
