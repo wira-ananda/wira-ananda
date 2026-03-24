@@ -1,9 +1,9 @@
 import React from "react";
 import { contentWidth, EmptySection } from "./HomePage";
-import { FaReact, FaNodeJs, FaLaravel } from "react-icons/fa";
+import { FaReact, FaLaravel } from "react-icons/fa";
 import { TbBrandNextjs } from "react-icons/tb";
 import { useTheme } from "next-themes";
-import { SiNuxtdotjs, SiExpress, SiNestjs } from "react-icons/si";
+import { SiNuxtdotjs, SiExpress, SiNestjs, SiAstro } from "react-icons/si";
 
 export default function About({ id }: { id: string }) {
   return (
@@ -66,23 +66,31 @@ function AboutContent() {
         <SkillBadge
           color="green"
           icon={<SiNuxtdotjs size={12} />}
-          aria-label="Next.js"
+          aria-label="Nuxt.js"
         >
           Nuxt.js
         </SkillBadge>
         ,{" "}
         <SkillBadge
+          color="orange"
+          icon={<SiAstro size={12} />}
+          aria-label="Astro"
+        >
+          Astro
+        </SkillBadge>
+        ,{" "}
+        <SkillBadge
           color="red"
           icon={<SiNestjs size={12} />}
-          aria-label="Node.js"
+          aria-label="Nest.js"
         >
           Nest.js
         </SkillBadge>
         ,{" "}
         <SkillBadge
-          color="gray"
+          color="zinc"
           icon={<SiExpress size={12} />}
-          aria-label="Node.js"
+          aria-label="Express.js"
         >
           Express.js
         </SkillBadge>
@@ -126,13 +134,17 @@ function SkillBadge({
 }: {
   children: React.ReactNode;
   icon?: React.ReactNode;
-  color: "blue" | "green" | "red" | "gray";
+  color: "blue" | "green" | "red" | "gray" | "zinc" | "orange";
 }) {
   const colors = {
-    blue: "border-blue-500/60 bg-blue-500/10 dark:text-blue-400 text-blue-800",
-    green: "border-green-500/60 dark:text-green-400 text-green-700",
-    red: "border-red-500/60 bg-red-500/10 dark:text-red-400 text-red-900",
-    gray: "border-gray-500/60 bg-gray-500/10 text-primary",
+    blue: "border-blue-500/60 bg-blue-500/10 dark:text-blue-400 text-blue-800", // React
+    gray: "border-slate-500/60 bg-slate-500/10 dark:text-slate-300 text-slate-800", // Next.js
+    green:
+      "border-emerald-500/60 bg-emerald-500/10 dark:text-emerald-400 text-emerald-800", // Nuxt.js
+    orange:
+      "border-orange-500/60 bg-orange-500/10 dark:text-orange-400 text-orange-800", // Astro
+    red: "border-red-600/60 bg-red-600/10 dark:text-red-400 text-red-800", // NestJS & Laravel
+    zinc: "border-zinc-500/40 bg-zinc-500/5 dark:text-zinc-400 text-zinc-700", // Express (Neutral)
   };
 
   return (
