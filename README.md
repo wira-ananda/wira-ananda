@@ -24,11 +24,12 @@
 
 <!-- <a href="https://astro.build/" target="_blank">
   <img src="https://img.shields.io/badge/Astro-0F172A?style=for-the-badge&logo=astro&logoColor=white" alt="Astro">
-</a> -->
+</a> 
 
 <a href="https://reactnative.dev/" target="_blank">
   <img src="https://img.shields.io/badge/React%20Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Native">
 </a>
+-->
 
 <a href="https://nestjs.com/" target="_blank">
   <img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" alt="NestJS">
