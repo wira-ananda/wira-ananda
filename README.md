@@ -14,17 +14,17 @@
   <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js">
 </a>
 
-<a href="https://vuejs.org/" target="_blank">
+<!-- <a href="https://vuejs.org/" target="_blank">
   <img src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D" alt="Vue.js">
-</a>
+</a> -->
 
 <a href="https://nuxt.com/" target="_blank">
   <img src="https://img.shields.io/badge/Nuxt-00DC82?style=for-the-badge&logo=nuxt&logoColor=white" alt="Nuxt">
 </a>
 
-<a href="https://astro.build/" target="_blank">
+<!-- <a href="https://astro.build/" target="_blank">
   <img src="https://img.shields.io/badge/Astro-0F172A?style=for-the-badge&logo=astro&logoColor=white" alt="Astro">
-</a>
+</a> -->
 
 <a href="https://reactnative.dev/" target="_blank">
   <img src="https://img.shields.io/badge/React%20Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Native">
