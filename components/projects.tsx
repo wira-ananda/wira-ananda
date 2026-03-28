@@ -145,6 +145,7 @@ const ProjectDetail = ({
                       {isVideo ? (
                         <video
                           src={file}
+                          muted
                           controls
                           playsInline
                           preload="metadata"
